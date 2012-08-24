@@ -24,7 +24,7 @@ Set your player stats files as well as the draft info file you want to use
 Keep in mind, Clawbot is very dumb at the moment and brute forces his way to lineup projections.
 
 We're looking at a runtime complexity of something like:
-`O(12^N)` where N is the number of rounds out you want to project.
+`O(12^N)` where N is the number of rounds out you want to project. test
 
 Probably about 7 rounds out, which takes about 4 minutes, is the most you'll want to run on
 Clawbot.
