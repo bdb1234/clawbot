@@ -10,17 +10,10 @@ Here are the list of commands Clawbot supports
 - Round - The current round you are in - `Round:3`
 - Selected - Set this with the player names you have selected. - `Selected:Rodgers, Aaron QB GB`
 - Roster - Use this to set how many of each position you would like clawbot to project for
-	- Quarterback
-	- RunningBack
-	- TightEnd
-	- WideReceiver
-	`Roster:Quarterback:2
-
-     Roster:RunningBack:2
-
-     Roster:TightEnd:1
-
-     Roster:WideReceiver:2`
+	- Quarterback - `Roster:Quarterback:2`
+	- RunningBack - `Roster:RunningBack:2`
+	- TightEnd - `Roster:TightEnd:1`
+	- WideReceiver - `Roster:WideReceiver:2`
 
 ## Configure the clawbot.sh script
 
