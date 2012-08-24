@@ -6,7 +6,7 @@
  * @version $Id$
  */
  
-require_once './src/fileplayerloader.php';
+require_once './src/draftloader.php';
 require_once './src/crystalball.php';
 
 if ($argc !== 4) {

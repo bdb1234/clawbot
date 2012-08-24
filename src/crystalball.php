@@ -21,6 +21,7 @@ class CrystalBall
     private $totalPicks;
     private $rosterTrends;
     private $startTime;
+    private $projectedCalculations;
 
     public function __construct(iDraftLoader $draftLoader)
     {
@@ -33,12 +34,11 @@ class CrystalBall
         $this->totalPicks           = 0;
         date_default_timezone_set('America/Los_Angeles');
         $this->startTime            = mktime();
+        $this->projectedCalculations = 0;
     }
 
     public function projectLineup()
     {
-        $this->playerProcesser->loadPlayers();
-
         $playerList                 = $this->draftLoader->getPlayerList();
         $playersSelectedAlready     = $this->draftLoader->getPlayersSelectedAlready();
         $this->draftLocation        = $this->draftLoader->getDraftPosition();
@@ -46,6 +46,7 @@ class CrystalBall
         $this->currentPickNumber    = $this->getInitialPickNumber($this->draftRound, $this->draftLocation);
         $roster                     = new Roster($this->draftLoader->getRosterArray());
         $rosterSize                 = $roster->getRosterSize();
+        $this->projectedCalculations = pow(9, $rosterSize - 1);
 
         for ($i = 0; $i < $rosterSize; $i++) {
             $this->rosterTrends[$i] = array();
@@ -106,11 +107,10 @@ class CrystalBall
                 break;
             }
         }
-        $endTime                    = mktime();
 
         echo sprintf("Scores array size %s\n", count($this->scores));
         echo sprintf("TOTAL PICKS: %s\n", $this->totalPicks);
-        echo sprintf("TOTAL TIME: %s:%s", round(($endTime - $this->startTime) / 60), ($endTime - $this->startTime) % 60);
+        echo $this->getElapsedTime();
     }
 
     private function sortScores()
@@ -130,6 +130,12 @@ class CrystalBall
         return 0;
     }
 
+    private function getElapsedTime()
+    {
+        $endTime                    = mktime();
+        return sprintf("TOTAL TIME: %s:%s", round(($endTime - $this->startTime) / 60), ($endTime - $this->startTime) % 60);
+    }
+
     /**
      * @param $pickNumber
      * @param $draftRound
@@ -143,7 +149,10 @@ class CrystalBall
             $this->scores[strval($roster->getProjectedScore())] = $roster->getRosterArrayCopy();
             $this->totalPicks++;
             if ($this->totalPicks % 100000 === 0) {
-                echo "$this->totalPicks\n";
+                echo sprintf(
+                    "percent done %s, time %s\n",
+                    round($this->totalPicks / $this->projectedCalculations, 2) * 100,
+                    $this->getElapsedTime());
             }
             return;
         }
