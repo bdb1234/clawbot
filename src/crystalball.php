@@ -22,8 +22,10 @@ class CrystalBall
     private $rosterTrends;
     private $startTime;
     private $projectedCalculations;
+    private $topRosterTriendsToUseCount;
+    private $webFileHandler;
 
-    public function __construct(iDraftLoader $draftLoader)
+    public function __construct(iDraftLoader $draftLoader, $webFileHandler)
     {
         $this->draftLoader          = $draftLoader;
         $this->rosterList           = array();
@@ -35,6 +37,8 @@ class CrystalBall
         date_default_timezone_set('America/Los_Angeles');
         $this->startTime            = mktime();
         $this->projectedCalculations = 0;
+        $this->topRosterTriendsToUseCount = 200;
+        $this->webFileHandler       = $webFileHandler;
     }
 
     public function projectLineup()
@@ -47,6 +51,7 @@ class CrystalBall
         $roster                     = new Roster($this->draftLoader->getRosterArray());
         $rosterSize                 = $roster->getRosterSize();
         $this->projectedCalculations = pow(9, $rosterSize - 1);
+        $this->writeWebLoadingStatus();
 
         for ($i = 0; $i < $rosterSize; $i++) {
             $this->rosterTrends[$i] = array();
@@ -64,11 +69,12 @@ class CrystalBall
 
         $this->selectPlayer($this->currentPickNumber, $this->draftRound, $roster, $playerList);
         $this->sortScores();
+        $this->calculateRosterTrends();
     }
 
-    public function printDraftTrends()
+    private function calculateRosterTrends()
     {
-        $totalToCount               = 200;
+        $this->topRosterTriendsToUseCount = 200;
         $count                      = 0;
         foreach ($this->scores as $projectedScore => $rosterArray) {
             $rosterIndex            = 0;
@@ -81,15 +87,34 @@ class CrystalBall
                 $rosterIndex++;
             }
 
-            if (++$count >= $totalToCount) break;
+            if (++$count >= $this->topRosterTriendsToUseCount) break;
         }
+    }
 
+    private function writeWebLoadingStatus()
+    {
+        if (empty($this->webFileHandler)) return;
+
+        //TODO:// this is bad form in the model layer, but just wanted to get it done!
+        require_once 'views/clawbotframeloadingview.php';
+        $clawbotLoadingFrame    = new ClawbotFrameLoading(round(
+            $this->totalPicks / $this->projectedCalculations, 2) * 100,
+            $this->getElapsedTime());
+        ftruncate($this->webFileHandler, 0);
+        fwrite($this->webFileHandler, $clawbotLoadingFrame->render());
+    }
+
+    public function printDraftTrends()
+    {
         foreach ($this->rosterTrends as $round => $playerNameArray) {
             echo sprintf("\nRound %s notables:\n", $round + 1);
 
             arsort($playerNameArray);
             foreach ($playerNameArray as $playerName => $numberOfTimesShow) {
-                echo sprintf("%s, chosen %s percent of the time.\n", $playerName, strval($numberOfTimesShow / $totalToCount * 100));
+                echo sprintf(
+                    "%s, chosen %s percent of the time.\n",
+                    $playerName,
+                    strval($numberOfTimesShow / $this->topRosterTriendsToUseCount * 100));
             }
         }
     }
@@ -113,6 +138,21 @@ class CrystalBall
         echo $this->getElapsedTime();
     }
 
+    public function getTopRosterTrendsToUseCount()
+    {
+        return $this->topRosterTriendsToUseCount;
+    }
+
+    public function getScores()
+    {
+        return $this->scores;
+    }
+
+    public function getRosterTrends()
+    {
+        return $this->rosterTrends;
+    }
+
     private function sortScores()
     {
 //        usort($this->scores, $this->cmp_player_score);
@@ -133,7 +173,7 @@ class CrystalBall
     private function getElapsedTime()
     {
         $endTime                    = mktime();
-        return sprintf("TOTAL TIME: %s:%s", round(($endTime - $this->startTime) / 60), ($endTime - $this->startTime) % 60);
+        return sprintf("TOTAL TIME: %s:%s", floor(($endTime - $this->startTime) / 60), ($endTime - $this->startTime) % 60);
     }
 
     /**
@@ -148,10 +188,11 @@ class CrystalBall
         if (!$roster->areAnymorePositionsAvailable()) {
             $this->scores[strval($roster->getProjectedScore())] = $roster->getRosterArrayCopy();
             $this->totalPicks++;
-            if ($this->totalPicks % 100000 === 0) {
+            if ($this->totalPicks % 25000 === 0) {
+                $this->writeWebLoadingStatus();
                 echo sprintf(
                     "percent done %s, time %s\n",
-                    round($this->totalPicks / $this->projectedCalculations, 2) * 100,
+                    round($this->totalPicks / $this->projectedCalculations) * 100,
                     $this->getElapsedTime());
             }
             return;
@@ -170,7 +211,7 @@ class CrystalBall
             if ($draftRound === 1) {
                 $adpLow     = 0;
             } else if ($draftRound <= 3) {
-                $adpLow     = 2;
+                $adpLow     = 0;
             }
 
             if (!$player->isAvailable($pickNumber, $adpLow, $this->adpHigh)) {

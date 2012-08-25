@@ -1,236 +1,234 @@
 Average Drafted Position
 Rank,Player,Trends,Avg Pick,HI/LO,% Drafted,
 1,"Foster, Arian RB HOU ",,1.80, 1/5,99.0
-2,"Rodgers, Aaron QB GB ",,2.39, 1/6,96.7
-3,"Rice, Ray RB BAL ",,3.59, 2/8,99.1
-4,"McCoy, LeSean RB PHI ",,4.45, 2/9,99.1
-5,"Brady, Tom QB NE ",,5.15, 2/9,97.0
-6,"Brees, Drew QB NO ",,6.47, 2/11,97.0
-7,"Johnson, Calvin WR DET ",,7.72, 4/14,99.0
-8,"Johnson, Chris RB TEN ",,7.84, 4/13,99.2
-9,"McFadden, Darren RB OAK ",,10.49, 6/19,99.2
-10,"Stafford, Matthew QB DET ",,12.29, 5/25,97.1
-11,"Newton, Cam QB CAR ",,14.52, 6/32,96.9
-12,"Murray, DeMarco RB DAL ",,14.59, 9/28,99.2
-13,"Jones-Drew, Maurice RB JAC ",,14.64, 7/28,99.2
-14,"Forte, Matt RB CHI ",,15.15, 8/27,99.3
-15,"Fitzgerald, Larry WR ARI",,19.50, 11/31,99.2
-16,"Graham, Jimmy TE NO ",,20.28, 11/35,99.2
-17,"Lynch, Marshawn RB SEA ",,20.68, 11/42,99.3
-18,"Gronkowski, Rob TE NE ",,21.37, 11/35,99.2
-19,"Jackson, Steven RB STL ",,22.19, 13/39,99.5
-20,"Jones, Julio WR ATL ",,24.14, 13/39,99.2
+2,"Rodgers, Aaron QB GB ",,2.37, 1/6,96.7
+3,"Rice, Ray RB BAL ",,3.59, 2/8,99.2
+4,"McCoy, LeSean RB PHI ",,4.46, 2/9,99.1
+5,"Brady, Tom QB NE ",,5.11, 2/9,96.9
+6,"Brees, Drew QB NO ",,6.47, 2/11,96.9
+7,"Johnson, Calvin WR DET ",,7.70, 4/14,99.0
+8,"Johnson, Chris RB TEN ",,7.79, 4/13,99.2
+9,"McFadden, Darren RB OAK ",,10.40, 6/18,99.2
+10,"Stafford, Matthew QB DET ",,12.13, 5/25,97.0
+11,"Murray, DeMarco RB DAL ",,14.36, 9/28,99.2
+12,"Newton, Cam QB CAR ",,14.43, 6/31,96.8
+13,"Forte, Matt RB CHI ",,15.13, 8/27,99.3
+14,"Jones-Drew, Maurice RB JAC ",,15.55, 8/31,99.2
+15,"Fitzgerald, Larry WR ARI ",,19.37, 11/31,99.2
+16,"Graham, Jimmy TE NO ",,20.10, 11/35,99.2
+17,"Lynch, Marshawn RB SEA ",,20.93, 11/43,99.3
+18,"Gronkowski, Rob TE NE ",,21.30, 11/35,99.2
+19,"Jackson, Steven RB STL ",,22.14, 13/39,99.5
+20,"Jones, Julio WR ATL ",,23.70, 13/38,99.2
 21,"Johnson, Andre WR HOU ",,24.17, 12/38,99.2
-22,"Mathews, Ryan RB SD ",,24.40, 7/54,99.1
-23,"Peterson, Adrian RB MIN ",,25.13, 13/46,99.1
-24,"Jackson, Fred RB BUF ",,28.08, 15/48,99.6
-25,"Welker, Wes WR NE",,28.25, 13/43,99.4
-26,"Richardson, Trent RB CLE  *",,28.36, 13/56,99.7
-27,"Turner, Michael RB ATL ",,28.41, 15/49,99.3
-28,"Charles, Jamaal RB KC  *",,28.47, 15/50,99.4
-29,"Jennings, Greg WR GB  *",,29.29, 17/43,99.3
-30,"White, Roddy WR ATL ",,30.47, 18/44,99.2
-31,"Bradshaw, Ahmad RB NYG ",,32.09, 18/53,99.6
-32,"Green, A.J. WR CIN ",,32.38, 20/47,99.1
-33,"Nelson, Jordy WR GB ",,33.31, 20/47,99.3
-34,"Sproles, Darren RB NO ",,33.70, 14/59,99.4
-35,"Cruz, Victor WR NYG ",,36.40, 21/50,99.3
-36,"Marshall, Brandon WR CHI ",,37.15, 23/52,99.6
-37,"Vick, Michael QB PHI ",,37.23, 12/74,97.2,XXX
-38,"Gore, Frank RB SF ",,38.99, 23/60,99.5
-39,"Manning, Eli QB NYG ",,39.01, 10/74,97.3
-40,"Nicks, Hakeem WR NYG ",,41.42, 27/57,99.4
-41,"Ryan, Matt QB ATL ",,45.74, 15/81,97.3
-42,"Gates, Antonio TE SD ",,46.44, 27/65,99.4
-43,"Martin, Doug RB TB  *",,46.93, 27/77,99.7
-44,"Smith, Steve WR CAR ",,47.29, 32/64,99.7
-45,"Rivers, Philip QB SD ",,48.03, 13/83,97.3
-46,"Thomas, Demaryius WR DEN ",,48.80, 34/65,99.6
-47,"Colston, Marques WR NO ",,48.87, 34/64,99.5
-48,"Manning, Peyton QB DEN ",,49.60, 13/82,97.2
-49,"Romo, Tony QB DAL ",,50.27, 16/87,97.1
-50,"Bryant, Dez WR DAL ",,50.50, 34/70,99.3
-51,"Harvin, Percy WR MIN ",,51.25, 35/71,99.6
-52,"Wallace, Mike WR PIT ",,51.34, 33/72,99.3
-53,"Green-Ellis, BenJarvus RB CIN ",,53.22, 31/83,99.5
-54,"Hernandez, Aaron TE NE ",,53.27, 32/75,99.4
-55,"Bush, Reggie RB MIA ",,54.61, 34/83,99.4
-56,"Greene, Shonn RB NYJ ",,55.22, 34/84,99.5
-57,"Davis, Vernon TE SF",,59.83, 38/82,99.2
-58,"McGahee, Willis RB DEN ",,60.00, 37/90,99.6
-59,"Austin, Miles WR DAL ",,61.49, 41/86,99.3
-60,"Jackson, DeSean WR PHI ",,61.90, 41/86,99.3
-61,"Maclin, Jeremy WR PHI ",,62.58, 45/87,99.5
-62,"Lloyd, Brandon WR NE ",,63.49, 42/90,99.5
-63,"Bowe, Dwayne WR KC ",,66.59, 47/94,99.2
-64,"Johnson, Steve WR BUF ",,66.60, 48/89,99.5
-65,"Finley, Jermichael TE GB ",,68.07, 44/94,98.8
-66,"Brown, Antonio WR PIT ",,68.41, 47/97,99.1
-67,"Jackson, Vincent WR TB ",,68.74, 49/96,99.3
-68,"Decker, Eric WR DEN ",,69.28, 48/95,99.3
-69,49ers DST SF,,70.92, 39/102,94.5
-70,"Redman, Isaac RB PIT  *",,71.98, 41/111,98.7
-71,"Witten, Jason TE DAL ",,72.41, 42/119,98.5
-72,"Brown, Donald RB IND ",,72.77, 46/108,98.8
-73,"Smith, Kevin RB DET ",,73.60, 46/116,94.7
-74,"Hillis, Peyton RB KC ",,74.45, 47/107,99.0
-75,"Ridley, Stevan RB NE  *",,76.63, 46/117,98.2
-76,"Wells, Beanie RB ARI ",,76.99, 48/113,98.4
-77,"Wayne, Reggie WR IND ",,80.27, 58/108,99.1
-78,"Griffin III, Robert QB WAS  *",,81.46, 32/116,97.4
-79,"Smith, Torrey WR BAL ",,82.90, 63/114,98.7
-80,"Garcon, Pierre WR WAS ",,85.41, 62/119,98.8
-81,"Schaub, Matt QB HOU ",,86.23, 35/121,96.8
-82,"Stewart, Jonathan RB CAR ",,88.20, 58/128,97.0
-83,"Roethlisberger, Ben QB PIT ",,89.28, 41/123,96.7
-84,"Davis, Fred TE WAS ",,90.12, 61/135,96.5
-85,"Cutler, Jay QB CHI  *",,90.54, 41/124,96.8
-86,Eagles DST PHI,,92.25, 58/132,94.3
-87,"Gonzalez, Tony TE ATL ",,93.28, 57/138,96.5
-88,"Williams, DeAngelo RB CAR ",,94.93, 64/133,96.6
-89,"Pettigrew, Brandon TE DET ",,95.69, 58/142,96.1
-90,"Spiller, C.J. RB BUF ",,96.27, 65/136,95.5
-91,"Tamme, Jacob TE DEN  *",,97.23, 61/139,96.7
-92,"Meachem, Robert WR SD ",,98.07, 70/138,96.3
-93,Bears DST CHI,,98.53, 61/142,94.0
-94,"Young, Titus WR DET  *",,98.65, 72/137,96.2
-95,"Akers, David K SF",,98.88, 58/151,99.6
-96,"Boldin, Anquan WR BAL ",,100.06, 72/137,96.7
-97,"Ingram, Mark RB NO  *",,104.36, 69/148,92.8
-98,"Helu, Roy RB WAS ",,105.02, 58/159,85.6
-99,"Floyd, Malcom WR SD  *",,105.87, 76/149,94.8
-100,"Tate, Ben RB HOU ",,106.31, 73/149,92.0
-101,Ravens DST BAL ,,107.23, 67/153,93.9
-102,"Benson, Cedric RB GB ",,107.35, 69/157,83.5
-103,"Gresham, Jermaine TE CIN ",,107.65, 69/150,93.2
-104,"Gostkowski, Stephen K NE",,107.83, 67/153,99.6
-105,"Luck, Andrew QB IND  *",,108.06, 50/152,92.7
-106,"Gerhart, Toby RB MIN ",,110.13, 78/152,91.4
-107,"Bush, Michael RB CHI ",,110.20, 78/153,92.2
-108,"Williams, Ryan RB ARI  *",,110.24, 75/158,88.1
-109,"Blackmon, Justin WR JAC  *",,110.80, 75/153,91.9
-110,"Leshoure, Mikel RB DET  *",,112.92, 72/160,87.0
-111,"Heyward-Bey, Darrius WR OAK ",,113.35, 80/155,91.7
-112,"Moore, Denarius WR OAK  *",,113.64, 79/159,90.2
-113,"Crosby, Mason K GB",,115.49, 74/161,99.6
-114,"Janikowski, Sebastian K OAK",,116.49, 74/163,99.6
-115,Texans DST HOU,,116.92, 73/165,91.1
-116,Jets DST NYJ,,117.16, 74/165,91.3
-117,"Moss, Randy WR SF  *",,117.92, 79/162,91.6
-118,Giants DST NYG ,,118.29, 73/163,90.1
-119,"Moore, Lance WR NO ",,119.91, 83/161,89.5
-120,"Britt, Kenny WR TEN  *",,119.92, 73/175,75.3
-121,Steelers DST PIT,,121.09, 73/170,89.1
-122,Packers DST GB,,121.40, 75/165,89.6
-123,"Blount, LeGarrette RB TB ",,121.55, 83/167,82.3
-124,"Little, Greg WR CLE ",,122.29, 86/164,86.4
-125,"Holmes, Santonio WR NYJ ",,122.97, 84/167,83.1
-126,"Flacco, Joe QB BAL ",,123.19, 67/162,87.1
-127,"Celek, Brent TE PHI ",,124.17, 79/164,88.1
-128,Cowboys DST DAL *,,125.28, 77/173,85.6
-129,"Royster, Evan RB WAS  *",,125.37, 86/172,74.0
-130,"Freeman, Josh QB TB ",,126.04, 76/164,84.2
-131,"Palmer, Carson QB OAK ",,126.78, 78/164,84.1
-132,"Crabtree, Michael WR SF ",,126.98, 85/167,81.1
-133,"Washington, Nate WR TEN",,127.24, 89/168,82.7
-134,"Starks, James RB GB  *",,128.05, 76/183,60.7
-135,"Jennings, Rashad RB JAC  *",,128.16, 86/176,69.1
-136,"Wilson, David RB NYG  *",,129.16, 88/175,73.1
-137,"Rodgers, Jacquizz RB ATL  *",,129.76, 90/171,73.3
-138,"Dalton, Andy QB CIN ",,130.25, 78/168,76.7
-139,"Daniels, Owen TE HOU ",,131.21, 82/168,85.4
-140,"Smith, Alex QB SF ",,132.49, 71/177,67.4
-141,"Thomas, Pierre RB NO ",,133.14, 89/173,73.1
-142,"Hartley, Garrett K NO  *",,134.25, 89/178,96.9
-143,"Rice, Sidney WR SEA  *",,135.50, 96/179,70.2
-144,"Mendenhall, Rashard RB PIT ",,135.51, 89/181,56.4
-145,"Moss, Santana WR WAS ",,136.18, 98/177,73.2
-146,"Jones, Felix RB DAL ",,136.51, 99/175,71.2
-147,"Fitzpatrick, Ryan QB BUF ",,137.45, 88/175,65.2
-148,"Bailey, Dan K DAL",,138.02, 92/182,97.0
-149,"Fleener, Coby TE IND  *",,140.11, 93/176,75.2
-150,"Amendola, Danny WR STL  *",,140.18, 95/188,49.1
-151,"Collie, Austin WR IND  *",,140.19, 96/188,51.9
-152,"Best, Jahvid RB DET  *",,140.24, 78/203,38.5
-153,"Hillman, Ronnie RB DEN  *",,141.20, 104/184,58.3
-154,Lions DST DET,,141.27, 89/183,63.4
-155,"LaFell, Brandon WR CAR  *",,141.34, 102/182,63.4
-156,"Williams, Mike WR TB",,142.29, 101/185,58.5
-157,"Olsen, Greg TE CAR ",,142.94, 96/182,62.9
-158,Patriots DST NE *,,143.06, 97/185,70.8
-159,"Robinson, Laurent WR JAC ",,143.28, 101/185,63.6
-160,"Keller, Dustin TE NYJ",,143.59, 96/181,64.1
-161,"Hightower, Tim RB WAS  *",,143.70, 98/191,54.2
-162,"Cook, Jared TE TEN",,144.08, 99/179,62.7
-163,"Baldwin, Jon WR KC  *",,145.19, 104/188,53.0
-164,"Hanson, Jason K DET",,146.37, 102/189,93.5
-165,"Thomas, Daniel RB MIA ",,146.38, 104/191,48.9
-166,Falcons DST ATL *,,146.42, 97/189,64.0
-167,"Vereen, Shane RB NE  *",,146.83, 104/192,44.4
-168,"Bradford, Sam QB STL ",,147.01, 89/191,41.0
-169,"Wright, Kendall WR TEN  *",,147.28, 103/192,47.1
-170,"Henery, Alex K PHI",,147.83, 104/189,90.6
-171,"Flynn, Matt QB SEA  *",,148.70, 90/199,30.3
-172,"Cobb, Randall WR GB  *",,149.97, 106/192,43.1
-173,Seahawks DST SEA *,,150.12, 104/189,60.5
-174,"Manningham, Mario WR SF ",,150.89, 100/199,41.0
-175,"Brown, Ronnie RB SD  *",,151.94, 103/199,35.1
-176,"Cassel, Matt QB KC  *",,153.05, 90/204,26.5
-177,Bills DST BUF *,,153.31, 110/193,56.4
-178,"Ponder, Christian QB MIN ",,153.34, 91/203,23.3
-179,"Floyd, Michael WR ARI  *",,154.08, 97/209,22.2
-180,"Owens, Terrell WR SEA  *",,154.14, 109/205,37.3
-181,"Bryant, Matt K ATL",,154.25, 112/193,87.2
-182,"Jacobs, Brandon RB SF ",,154.31, 105/203,34.8
-183,Bengals DST CIN,,154.78, 104/200,46.2
-184,"Locker, Jake QB TEN  *",,154.84, 95/211,17.5
-185,"Jeffery, Alshon WR CHI  *",,155.36, 102/206,25.2
-186,"Sanchez, Mark QB NYJ ",,155.46, 81/232,12.3
-187,"Prater, Matt K DEN  *",,155.86, 114/196,81.0
-188,"Kaeding, Nate K SD  *",,156.12, 111/200,77.0
-189,"Quick, Brian WR STL  *",,156.92, 113/204,32.0
-190,"Weeden, Brandon QB CLE  *",,157.88, 89/221,10.9
-191,"Goodson, Mike RB OAK  *",,158.22, 111/207,28.8
-192,"Rudolph, Kyle TE MIN  *",,158.23, 111/201,38.3
-193,"Pead, Isaiah RB STL  *",,158.63, 110/207,25.8
-194,"Hunter, Kendall RB SF  *",,158.80, 110/216,22.2
-195,"Brown, Vincent WR SD  *",,159.17, 107/224,10.0
-196,"Bess, Davone WR MIA *",,159.91, 116/214,23.8
-197,Broncos DST DEN,,160.27, 112/205,34.9
-198,"Gould, Robbie K CHI",,160.32, 114/205,63.6
-199,"Bullock, Randy K HOU  *",,160.55, 120/204,64.4
-200,"Bironas, Rob K TEN *",,160.84, 119/204,67.0
-201,"Baldwin, Doug WR SEA  *",,162.24, 116/211,25.3
-202,"Tebow, Tim QB NYJ ",,162.71, 99/238,16.3
-203,"Turbin, Robert RB SEA  *",,162.76, 113/211,20.7
-204,Chargers DST SD *,,162.88, 120/209,24.9
-205,"Clark, Dallas TE TB  *",,163.29, 112/214,24.5
-206,"Bennett, Martellus TE NYG  *",,163.48, 116/213,21.8
-207,"Simpson, Jerome WR MIN ",,163.63, 114/214,21.7
-208,"Hardesty, Montario RB CLE ",,163.64, 114/219,15.1
-209,"Winslow, Kellen TE SEA",,163.81, 116/211,25.8
-210,"Nelson, David WR BUF  *",,163.90, 121/214,23.4
-211,Cardinals DST ARI *,,164.38, 112/212,25.5
-212,"Green, Alex RB GB  *",,164.53, 108/230,11.1
-213,"Scott, Bernard RB CIN *",,166.04, 124/210,23.0
-214,"Miller, Heath TE PIT ",,166.72, 114/216,23.7
-215,"Rackers, Neil K WAS",,167.47, 119/217,29.9
-216,"Carpenter, Dan K MIA  *",,168.19, 125/217,37.4
-217,"Burleson, Nate WR DET ",,169.06, 113/220,18.1
-218,"Tynes, Lawrence K NYG  *",,169.28, 123/217,32.1
-219,"Woodhead, Danny RB NE  *",,169.64, 118/223,17.2
-220,"Jones, James WR GB *",,169.75, 118/220,13.2
-221,"Tolbert, Mike RB CAR ",,170.38, 116/235,12.8
-222,"Sanders, Emmanuel WR PIT  *",,170.67, 121/230,14.1
-223,"Randle, Rueben WR NYG *",,172.03, 115/226,11.1
-224,Chiefs DST KC *,,172.10, 126/225,13.8
-225,Saints DST NO  *,,172.14, 109/222,12.9
-226,"Hankerson, Leonard WR WAS  *",,173.05, 119/231,12.3
-227,"Nugent, Mike K CIN ",,174.19, 128/231,18.5
-228,"Chandler, Scott TE BUF ",,174.98, 120/237,10.9
-229,"Cundiff, Billy K BAL ",,175.03, 126/226,20.0
-230,"Vinatieri, Adam K IND *",,175.37, 117/238,12.5
-231,Redskins DST WAS *,,175.47, 123/225,12.2
-232,"Lewis, Marcedes TE JAC  *",,176.85, 132/227,14.8
-233,"Mare, Olindo K CAR  *",,180.72, 130/239,11.1
-234,"Dickson, Ed TE BAL ",,181.77, 123/257,10.0
+22,"Mathews, Ryan RB SD ",,24.78, 7/54,99.1
+23,"Peterson, Adrian RB MIN ",,25.08, 13/45,99.2
+24,"Jackson, Fred RB BUF ",,27.95, 15/48,99.6
+25,"Welker, Wes WR NE ",,28.17, 13/43,99.4
+26,"Charles, Jamaal RB KC  *",,28.38, 15/49,99.4
+27,"Richardson, Trent RB CLE  *",,28.51, 13/56,99.8
+28,"Turner, Michael RB ATL ",,28.76, 15/49,99.4
+29,"Jennings, Greg WR GB  *",,29.32, 17/43,99.3
+30,"White, Roddy WR ATL ",,30.42, 18/44,99.2
+31,"Green, A.J. WR CIN ",,32.24, 20/47,99.2
+32,"Bradshaw, Ahmad RB NYG ",,32.48, 18/54,99.5
+33,"Nelson, Jordy WR GB ",,33.11, 20/47,99.4
+34,"Sproles, Darren RB NO ",,34.17, 14/60,99.4
+35,"Cruz, Victor WR NYG ",,36.45, 21/51,99.3
+36,"Marshall, Brandon WR CHI ",,37.00, 23/52,99.6
+37,"Vick, Michael QB PHI ",,38.22, 13/76,97.1
+38,"Manning, Eli QB NYG ",,38.44, 10/73,97.2
+39,"Gore, Frank RB SF ",,39.22, 23/60,99.5
+40,"Nicks, Hakeem WR NYG ",,41.28, 27/57,99.4
+41,"Ryan, Matt QB ATL ",,44.16, 14/80,97.2
+42,"Gates, Antonio TE SD ",,46.13, 27/65,99.4
+43,"Martin, Doug RB TB  *",,47.02, 27/77,99.7
+44,"Smith, Steve WR CAR ",,47.52, 33/64,99.6
+45,"Rivers, Philip QB SD ",,48.18, 13/84,97.2
+46,"Thomas, Demaryius WR DEN ",,48.75, 35/65,99.6
+47,"Colston, Marques WR NO ",,48.83, 34/64,99.5
+48,"Manning, Peyton QB DEN ",,49.97, 13/83,97.1
+49,"Bryant, Dez WR DAL ",,50.55, 34/69,99.4
+50,"Harvin, Percy WR MIN ",,50.82, 34/70,99.6
+51,"Wallace, Mike WR PIT ",,51.36, 33/72,99.3
+52,"Romo, Tony QB DAL ",,51.45, 16/89,97.0
+53,"Hernandez, Aaron TE NE ",,52.77, 32/74,99.3
+54,"Green-Ellis, BenJarvus RB CIN ",,53.45, 32/82,99.5
+55,"Bush, Reggie RB MIA ",,54.80, 34/83,99.4
+56,"Greene, Shonn RB NYJ ",,55.75, 34/85,99.5
+57,"Davis, Vernon TE SF ",,59.54, 38/81,99.0
+58,"McGahee, Willis RB DEN ",,60.05, 37/90,99.6
+59,"Jackson, DeSean WR PHI ",,61.63, 41/85,99.4
+60,"Maclin, Jeremy WR PHI ",,62.10, 45/86,99.5
+61,"Lloyd, Brandon WR NE ",,62.45, 41/89,99.5
+62,"Austin, Miles WR DAL ",,62.81, 42/89,99.3
+63,"Johnson, Steve WR BUF ",,66.62, 48/89,99.5
+64,"Bowe, Dwayne WR KC ",,66.83, 47/94,99.2
+65,"Finley, Jermichael TE GB ",,67.77, 44/93,98.7
+66,"Brown, Antonio WR PIT ",,68.08, 47/97,99.0
+67,"Jackson, Vincent WR TB ",,68.94, 49/96,99.2
+68,"Decker, Eric WR DEN ",,69.27, 48/95,99.4
+69,49ers DST SF,,70.78, 39/103,94.8
+70,"Brown, Donald RB IND ",,71.91, 45/106,98.8
+71,"Witten, Jason TE DAL ",,72.71, 42/117,98.3
+72,"Smith, Kevin RB DET ",,73.07, 46/113,95.4
+73,"Hillis, Peyton RB KC ",,74.37, 47/107,99.0
+74,"Redman, Isaac RB PIT  *",,75.00, 42/116,98.3
+75,"Ridley, Stevan RB NE  *",,75.82, 46/115,98.3
+76,"Wells, Beanie RB ARI ",,77.53, 49/114,98.3
+77,"Wayne, Reggie WR IND ",,79.68, 57/108,99.1
+78,"Griffin III, Robert QB WAS  *",,81.52, 31/116,97.3
+79,"Smith, Torrey WR BAL ",,82.81, 62/114,98.6
+80,"Garcon, Pierre WR WAS ",,85.25, 62/118,98.8
+81,"Schaub, Matt QB HOU ",,85.70, 35/120,96.6
+82,"Stewart, Jonathan RB CAR ",,88.64, 59/128,96.7
+83,"Roethlisberger, Ben QB PIT ",,89.10, 41/123,96.5
+84,"Cutler, Jay QB CHI  *",,89.96, 39/124,96.6
+85,"Davis, Fred TE WAS ",,90.34, 60/135,96.4
+86,Eagles DST PHI,,91.82, 58/132,94.6
+87,"Gonzalez, Tony TE ATL ",,93.01, 58/136,96.4
+88,"Pettigrew, Brandon TE DET ",,94.91, 58/141,96.0
+89,"Williams, DeAngelo RB CAR ",,95.24, 65/133,96.5
+90,"Tamme, Jacob TE DEN  *",,96.59, 61/139,96.5
+91,"Spiller, C.J. RB BUF ",,97.14, 66/137,95.1
+92,"Young, Titus WR DET  *",,97.71, 72/136,96.4
+93,Bears DST CHI,,98.22, 61/142,94.4
+94,"Meachem, Robert WR SD ",,98.30, 70/137,96.0
+95,"Akers, David K SF",,98.77, 58/150,99.4
+96,"Boldin, Anquan WR BAL ",,99.75, 72/137,96.7
+97,"Ingram, Mark RB NO  *",,104.81, 69/148,92.5
+98,"Floyd, Malcom WR SD  *",,105.97, 75/149,94.6
+99,"Benson, Cedric RB GB ",,106.29, 69/155,85.5
+100,"Tate, Ben RB HOU ",,106.41, 73/149,91.8
+101,Ravens DST BAL,,107.18, 67/153,94.0
+102,"Helu, Roy RB WAS ",,107.33, 58/163,82.6
+103,"Luck, Andrew QB IND  *",,107.33, 51/150,93.1
+104,"Gostkowski, Stephen K NE",,107.39, 67/153,99.4
+105,"Gresham, Jermaine TE CIN ",,107.47, 69/150,93.2
+106,"Williams, Ryan RB ARI  *",,108.31, 74/155,89.2
+107,"Bush, Michael RB CHI ",,109.60, 77/152,92.1
+108,"Blackmon, Justin WR JAC  *",,110.04, 75/153,92.2
+109,"Gerhart, Toby RB MIN ",,110.46, 79/152,91.3
+110,"Heyward-Bey, Darrius WR OAK ",,112.93, 80/154,91.5
+111,"Leshoure, Mikel RB DET  *",,113.44, 74/159,86.4
+112,"Crosby, Mason K GB",,115.40, 74/161,99.4
+113,"Moore, Denarius WR OAK  *",,115.51, 81/161,88.5
+114,"Janikowski, Sebastian K OAK",,116.36, 74/162,99.4
+115,Texans DST HOU,,116.80, 73/164,91.0
+116,Jets DST NYJ,,117.83, 75/166,91.1
+117,Giants DST NYG,,118.15, 73/163,90.4
+118,"Moss, Randy WR SF  *",,118.40, 80/162,91.1
+119,"Moore, Lance WR NO ",,119.50, 83/160,89.4
+120,"Britt, Kenny WR TEN  *",,120.77, 74/175,74.5
+121,Steelers DST PIT,,120.80, 73/169,89.2
+122,Packers DST GB,,121.61, 75/166,89.7
+123,"Little, Greg WR CLE ",,122.26, 86/164,86.3
+124,"Blount, LeGarrette RB TB ",,122.46, 83/167,81.4
+125,"Flacco, Joe QB BAL ",,122.53, 70/161,86.9
+126,"Holmes, Santonio WR NYJ ",,123.44, 85/167,82.3
+127,"Celek, Brent TE PHI ",,123.99, 79/163,87.9
+128,Cowboys DST DAL *,,124.78, 77/174,85.7
+129,"Royster, Evan RB WAS  *",,124.92, 86/171,74.5
+130,"Washington, Nate WR TEN ",,125.16, 87/167,83.8
+131,"Freeman, Josh QB TB ",,125.73, 78/163,83.8
+132,"Jennings, Rashad RB JAC  *",,125.90, 85/173,71.6
+133,"Crabtree, Michael WR SF ",,126.93, 86/167,80.4
+134,"Palmer, Carson QB OAK ",,127.11, 79/165,83.0
+135,"Wilson, David RB NYG  *",,128.30, 87/173,74.0
+136,"Rodgers, Jacquizz RB ATL  *",,129.35, 90/171,73.8
+137,"Dalton, Andy QB CIN ",,130.13, 78/168,76.1
+138,"Starks, James RB GB  *",,130.45, 77/187,55.2
+139,"Daniels, Owen TE HOU ",,131.32, 82/168,85.1
+140,"Smith, Alex QB SF ",,132.26, 72/177,66.5
+141,"Thomas, Pierre RB NO ",,133.66, 90/172,72.4
+142,"Hartley, Garrett K NO  *",,133.83, 89/178,97.0
+143,"Mendenhall, Rashard RB PIT ",,134.56, 89/180,58.4
+144,"Rice, Sidney WR SEA  *",,135.87, 97/179,70.3
+145,"Jones, Felix RB DAL ",,136.76, 100/175,70.9
+146,"Moss, Santana WR WAS ",,136.90, 98/177,71.5
+147,"Fitzpatrick, Ryan QB BUF ",,137.08, 87/175,64.7
+148,"Bailey, Dan K DAL",,137.90, 94/182,96.8
+149,"Amendola, Danny WR STL  *",,139.72, 95/188,51.1
+150,"LaFell, Brandon WR CAR  *",,140.42, 101/181,63.6
+151,"Fleener, Coby TE IND  *",,140.43, 93/177,74.7
+152,"Collie, Austin WR IND  *",,140.94, 96/190,45.4
+153,"Olsen, Greg TE CAR ",,140.99, 94/180,65.6
+154,Lions DST DET,,141.22, 90/183,63.4
+155,"Hillman, Ronnie RB DEN  *",,141.38, 103/183,58.1
+156,"Best, Jahvid RB DET  *",,141.65, 78/204,35.7
+157,"Williams, Mike WR TB",,142.10, 102/184,58.4
+158,Patriots DST NE *,,142.56, 96/184,70.8
+159,"Keller, Dustin TE NYJ",,143.83, 97/180,64.3
+160,"Cook, Jared TE TEN",,143.84, 99/179,63.2
+161,"Robinson, Laurent WR JAC ",,144.30, 102/186,62.0
+162,"Hightower, Tim RB WAS  *",,144.50, 98/191,53.0
+163,"Baldwin, Jon WR KC  *",,145.44, 105/188,52.8
+164,"Hanson, Jason K DET",,145.57, 102/188,93.6
+165,Falcons DST ATL *,,146.10, 98/188,64.8
+166,"Wright, Kendall WR TEN  *",,146.53, 102/191,48.1
+167,"Thomas, Daniel RB MIA ",,146.70, 104/191,48.3
+168,"Bradford, Sam QB STL ",,146.95, 89/191,40.8
+169,"Vereen, Shane RB NE  *",,147.26, 105/191,44.8
+170,"Henery, Alex K PHI",,148.05, 105/189,90.0
+171,"Flynn, Matt QB SEA  *",,149.11, 90/201,28.6
+172,"Cobb, Randall WR GB  *",,149.92, 106/192,43.7
+173,Seahawks DST SEA *,,149.95, 104/189,61.4
+174,"Manningham, Mario WR SF ",,150.78, 101/198,41.5
+175,"Brown, Ronnie RB SD  *",,152.62, 103/199,36.1
+176,"Locker, Jake QB TEN  *",,153.27, 93/209,19.9
+177,Bills DST BUF *,,153.45, 111/193,55.5
+178,"Ponder, Christian QB MIN ",,153.54, 92/204,23.1
+179,"Cassel, Matt QB KC  *",,153.85, 90/204,26.4
+180,"Bryant, Matt K ATL",,153.98, 112/194,87.0
+181,Bengals DST CIN,,154.56, 104/199,46.3
+182,"Floyd, Michael WR ARI  *",,154.93, 97/211,20.8
+183,"Jeffery, Alshon WR CHI  *",,155.13, 106/206,26.2
+184,"Owens, Terrell WR SEA  *",,155.18, 109/205,36.0
+185,"Jacobs, Brandon RB SF ",,155.42, 106/204,33.7
+186,"Prater, Matt K DEN  *",,155.65, 113/196,81.2
+187,"Kaeding, Nate K SD  *",,155.76, 112/199,76.5
+188,"Sanchez, Mark QB NYJ ",,156.08, 83/228,11.5
+189,"Quick, Brian WR STL  *",,157.79, 113/205,31.2
+190,"Weeden, Brandon QB CLE  *",,157.89, 88/222,10.4
+191,"Goodson, Mike RB OAK  *",,158.18, 110/208,28.8
+192,"Rudolph, Kyle TE MIN  *",,158.42, 111/199,38.9
+193,"Pead, Isaiah RB STL  *",,158.84, 110/207,25.6
+194,"Hunter, Kendall RB SF  *",,159.21, 110/216,22.0
+195,"Gould, Robbie K CHI",,160.02, 114/204,63.6
+196,"Bess, Davone WR MIA *",,160.04, 116/210,24.4
+197,Broncos DST DEN,,160.40, 113/205,34.5
+198,"Bullock, Randy K HOU  *",,160.66, 121/204,63.8
+199,"Bironas, Rob K TEN *",,160.68, 119/202,67.5
+200,"Turbin, Robert RB SEA  *",,162.44, 112/211,20.6
+201,"Tebow, Tim QB NYJ ",,163.06, 100/236,16.0
+202,Chargers DST SD *,,163.07, 120/207,25.1
+203,"Bennett, Martellus TE NYG  *",,163.19, 115/213,21.7
+204,"Simpson, Jerome WR MIN ",,163.33, 114/214,22.0
+205,"Baldwin, Doug WR SEA  *",,163.42, 116/213,23.5
+206,"Clark, Dallas TE TB  *",,163.69, 112/214,25.0
+207,"Nelson, David WR BUF  *",,163.71, 122/212,24.0
+208,"Hardesty, Montario RB CLE ",,163.92, 114/219,14.9
+209,"Winslow, Kellen TE SEA",,164.42, 118/211,25.8
+210,Cardinals DST ARI *,,164.77, 117/212,25.3
+211,"Green, Alex RB GB  *",,166.20, 109/230,11.1
+212,"Miller, Heath TE PIT ",,166.54, 115/215,23.5
+213,"Scott, Bernard RB CIN  *",,167.05, 125/210,22.9
+214,"Rackers, Neil K WAS",,167.61, 119/217,29.9
+215,"Carpenter, Dan K MIA  *",,168.01, 125/216,36.9
+216,"Tynes, Lawrence K NYG  *",,168.86, 123/216,32.3
+217,"Burleson, Nate WR DET ",,168.96, 116/220,18.2
+218,"Woodhead, Danny RB NE  *",,169.94, 118/219,17.0
+219,"Jones, James WR GB *",,170.14, 120/223,12.3
+220,"Sanders, Emmanuel WR PIT  *",,170.75, 121/230,13.6
+221,"Randle, Rueben WR NYG *",,171.14, 115/225,10.6
+222,"Tolbert, Mike RB CAR ",,171.23, 117/235,12.4
+223,Chiefs DST KC *,,171.54, 125/223,13.8
+224,Saints DST NO  *,,172.09, 112/220,12.6
+225,"Hankerson, Leonard WR WAS  *",,173.64, 119/230,12.5
+226,"Chandler, Scott TE BUF ",,173.88, 112/231,10.9
+227,"Nugent, Mike K CIN ",,174.80, 129/229,18.3
+228,"Cundiff, Billy K BAL ",,174.84, 126/224,19.4
+229,"Vinatieri, Adam K IND *",,174.91, 117/235,12.7
+230,Redskins DST WAS *,,175.46, 123/224,11.9
+231,"Lewis, Marcedes TE JAC *",,176.62, 132/227,14.9
+232,"Mare, Olindo K CAR  *",,181.29, 130/239,10.9
