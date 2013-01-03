@@ -29,3 +29,10 @@ We're looking at a runtime complexity of something like:
 Probably about 7 rounds out, which takes about 4 minutes, is the most you'll want to run on
 Clawbot.
 
+## TODO
+
+- Build an actual web interface other than the rudimentary templates
+- Fix the percentage calculations.
+- Improve performance.
+    - We could precompute results
+    - Run different processes of Clawbot in parallel.
