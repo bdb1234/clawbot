@@ -50,6 +50,7 @@ abstract class Player
 
     public function isAvailable($pickNumber, $adpLow, $adpHigh)
     {
+        // is the ADP of the player between the low and the high bounds AND this player is still available
         return (($pickNumber - $adpLow <= $this->adp) && ($this->adp <= $pickNumber + $adpHigh)) &&
             $this->isAvailable;
     }
@@ -58,11 +59,40 @@ abstract class Player
     {
         return get_class($this);
     }
+
+    public static function CmpPlayerADP(Player $playerA, Player $playerB)
+    {
+        if (doubleval($playerA->getADP()) < doubleval($playerB->getADP())) {
+            return -1;
+        } else if (doubleval($playerA->getADP()) > doubleval($playerB->getADP())) {
+            return 1;
+        }
+
+        return 0;
+    }
+
+    public static function CmpPlayerScore($playerScoreA, $playerScoreB)
+    {
+        if (doubleval($playerScoreA) < doubleval($playerScoreB)) {
+            return 1;
+        } else if (doubleval($playerScoreA) > doubleval($playerScoreB)) {
+            return -1;
+        }
+
+        return 0;
+    }
 }
 
 class Quarterback extends Player
 {
-
+    public function __construct($name, $isAvailable = true, $adp = null, $projectedPoints = null)
+    {
+        if (!is_null($adp)) {
+            // In our league, quarterbacks on average go half as high as the ADP provided says.
+            $adp        = $adp / 2;
+        }
+        parent::__construct($name, $isAvailable, $adp, $projectedPoints);
+    }
 }
 
 class TightEnd extends Player

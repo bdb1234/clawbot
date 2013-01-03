@@ -96,6 +96,8 @@ class FileDraftLoader implements iDraftLoader
 
             $this->players[$player->getName()] = $player;
         }
+
+        uasort($this->players, array('Player', 'CmpPlayerADP'));
     }
 
     private function loadAdpPlayers()

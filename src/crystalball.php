@@ -156,18 +156,7 @@ class CrystalBall
     private function sortScores()
     {
 //        usort($this->scores, $this->cmp_player_score);
-        uksort($this->scores, array('CrystalBall', 'CmpPlayerScore'));
-    }
-
-    private static function CmpPlayerScore($playerScoreA, $playerScoreB)
-    {
-        if (doubleval($playerScoreA) < doubleval($playerScoreB)) {
-            return 1;
-        } else if (doubleval($playerScoreA) > doubleval($playerScoreB)) {
-            return -1;
-        }
-
-        return 0;
+        uksort($this->scores, array('Player', 'CmpPlayerScore'));
     }
 
     private function getElapsedTime()
