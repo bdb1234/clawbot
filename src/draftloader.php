@@ -2,8 +2,6 @@
 /**
  * @package
  * @author Brian Backhaus <brianb@zoosk.com>
- * @copyright Copyright (c) 2007-20011 Zoosk Inc.
- * @version $Id$
  */
 
 require_once 'idraftloader.php';
