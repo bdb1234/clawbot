@@ -2,7 +2,7 @@
 
 First of all, make a clone or [fork of this repository](http://help.github.com/fork-a-repo/)
 
-## Configure the .draftinfo.properties file
+## Configure the draftinfo.properties file
 
 Here are the list of commands Clawbot supports
 
