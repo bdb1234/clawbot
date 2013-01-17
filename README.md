@@ -1,6 +1,6 @@
 ## What is a clawbot!?
 
-Have you ever wondered if I should take a running back in the first round, or wait and take one later?  When should I draft my QB? Clawbot will attempt to answer those questions.
+Have you ever wondered if I should take a running back in the first round, or wait and take one later?  When should I draft my QB? Clawbot will attempt to answer those questions. Think MoneyBall for fantasy football.
 
 Clawbot is a fantasy football simulation program.  It takes into account the players' projected scores for the season as well as the ADP(Average Draft Position) to pick lineups that are projected to score the highest.  Basically, it knows which players are likely to be available at certain rounds in the draft, and uses that information to simulate different lineups.
 
