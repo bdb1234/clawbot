@@ -33,10 +33,10 @@ Set your player stats files as well as the draft info file you want to use
 ## Run Clawbot!
 
 - `./clawbot.sh`
-- Open `clawbot.thml` which will be written to your CLAWBOT_HTML directory
+- Open `clawbot.html` which will be written to your CLAWBOT_HTML directory
 - During the draft
 	- Use the `Selected` flag in draftinfo.properties to select players you've drafted
-	- Add an `X` to the end of a player row in projections.csv
+	- To remove a player someone else has picked. Add an `X` to the end of a player row in projections.csv
 		- `"Rodgers, Aaron QB GB ",0,0,0,0.0,0,2.0,382.20` becomes `"Rodgers, Aaron QB GB ",0,0,0,0.0,0,2.0,382.20,X`
 - Keep in mind, Clawbot is very dumb at the moment and brute forces his way to lineup projections.  We're looking at a runtime complexity of something like:
 `O(12^N)` where N is the number of rounds out you want to project.  You'll want to keep it around 6 or 7 rounds until it can be optimized.
