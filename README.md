@@ -1,4 +1,10 @@
-# Setup and installation
+## What is a clawbot!?
+
+Have you ever wondered if I should take a running back in the first round, or wait and take one later?  When should I draft my QB? Clawbot will attempt to answer those questions.
+
+Clawbot is a fantasy football simulation program.  It takes into account the players' projected scores for the season as well as the ADP(Average Draft Position) to pick lineups that are projected to score the highest.  Basically, it knows which players are likely to be available at certain rounds in the draft, and uses that information to simulate different lineups.
+
+## Setup and installation
 
 First of all, make a clone or [fork of this repository](http://help.github.com/fork-a-repo/)
 
@@ -35,6 +41,7 @@ Set your player stats files as well as the draft info file you want to use
 
 - Build an actual web interface other than the rudimentary templates
 - Add a percentage to the status page
+- Update clawbot to pull in updated stats automatically
 - Improve performance.
     - We're starting at the beginning of our sorted list for every pick even in the later rounds. We could save a lot of time by skipping those results.
     - We could precompute results
