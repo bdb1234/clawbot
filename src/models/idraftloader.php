@@ -1,20 +1,18 @@
 <?php
 /**
  * @package
- * @author Brian Backhaus <brianb@zoosk.com>
+ * @author Brian Backhaus <brian.backhaus@gmail.com>
  */
- 
+
+/**
+ * This interface describes everything needed feed your own draft loader into Clawbot which
+ * you would need to do if you're using a different set of data.
+ */
 interface iDraftLoader
 {
     /**
      * @abstract
-     * @return number
-     */
-    public function getCurrentRound();
-
-    /**
-     * @abstract
-     * @return number
+     * @return int
      */
     public function getDraftPosition();
 
@@ -32,7 +30,7 @@ interface iDraftLoader
 
     /**
      * @abstract
-     * @return number
+     * @return int
      */
     public function getNumberTeamsInDraft();
 

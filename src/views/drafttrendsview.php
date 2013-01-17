@@ -1,7 +1,7 @@
 <?php
 /**
  * @package
- * @author Brian Backhaus <brianb@zoosk.com>
+ * @author Brian Backhaus <brian.backhaus@gmail.com>
  * @copyright Copyright (c) 2007-20011 Zoosk Inc.
  * @version $Id$
  */
@@ -24,7 +24,7 @@ class DraftTrendsView
         $topRosterTrendsCount       = $this->crystalBall->getTopRosterTrendsToUseCount();
 
         ob_start();
-        require 'drafttrendsview_template.php';
+        require TEMPLATES_DIR . '/drafttrendsview_template.php';
         $output = ob_get_contents();
       	ob_end_clean();
 

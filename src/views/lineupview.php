@@ -1,7 +1,7 @@
 <?php
 /**
  * @package
- * @author Brian Backhaus <brianb@zoosk.com>
+ * @author Brian Backhaus <brian.backhaus@gmail.com>
  * @copyright Copyright (c) 2007-20011 Zoosk Inc.
  * @version $Id$
  */
@@ -23,7 +23,7 @@ class LineupView
         $projectionsToShow          = $this->projectionsToShow;
 
         ob_start();
-        require 'lineupview_template.php';
+        require TEMPLATES_DIR . '/lineupview_template.php';
         $output = ob_get_contents();
       	ob_end_clean();
 

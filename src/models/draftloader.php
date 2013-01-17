@@ -1,19 +1,78 @@
 <?php
 /**
  * @package
- * @author Brian Backhaus <brianb@zoosk.com>
+ * @author Brian Backhaus <brian.backhaus@gmail.com>
  */
 
-require_once 'idraftloader.php';
-require_once 'models/player.php';
+require_once MODELS_DIR . '/idraftloader.php';
+require_once MODELS_DIR . '/player.php';
 
+/**
+ * This class encapsulates reading the various properties and data files and building up the different model objects.
+ */
 class FileDraftLoader implements iDraftLoader
 {
+    /**
+     * The location of the projected scores for players.
+     *
+     * @var string
+     */
     private $projectionLocation;
+
+    /**
+     * The location of the ADP file for players.
+     *
+     * @var string
+     */
     private $adpLocation;
+
+    /**
+     * This is an array indexed by player name of 'Player' objects
+     *
+     * @var array
+     */
     private $players;
+
+    /**
+     * The location of the draftinfo.properties file
+     *
+     * @var string
+     */
     private $draftInfoLocation;
 
+    /**
+     * An array indexed by 'PLAYER_TYPE' of integers representing how many of each position of that type of player
+     * is allowed
+     *
+     * @var array
+     */
+    private $rosterArray;
+
+    /**
+     * The current round we're in
+     *
+     * @var int
+     */
+    private $currentRound;
+
+    /**
+     * Array indexed by player name of the the 'Player' model objects representing the players that have been selected
+     * in this simulation.
+     *
+     * @var array
+     */
+    private $playersSelected;
+
+    /**
+     * @var int
+     */
+    private $numberPlayersInDraft;
+
+    /**
+     * @param string            $projectionLocation
+     * @param string            $adpLocation
+     * @param string            $draftInfoLocation
+     */
     public function __construct($projectionLocation, $adpLocation, $draftInfoLocation)
     {
         $this->projectionLocation       = $projectionLocation;
@@ -33,6 +92,9 @@ class FileDraftLoader implements iDraftLoader
         $this->loadFiles();
     }
 
+    /**
+     * this function will load all the property and data files and build the models for all the players.
+     */
     private function loadFiles()
     {
         $this->loadAdpPlayers();
@@ -40,6 +102,9 @@ class FileDraftLoader implements iDraftLoader
         $this->loadDraftInfo();
     }
 
+    /**
+     * Load the draftinfo.properties file
+     */
     private function loadDraftInfo()
     {
         $draftInfoContents              = file_get_contents($this->draftInfoLocation);
@@ -47,6 +112,7 @@ class FileDraftLoader implements iDraftLoader
 
         foreach ($fileLines as $line) {
             if (preg_match('/^#/', $line) > 0) {
+                //comment, continue
                 continue;
             }
 
@@ -67,6 +133,12 @@ class FileDraftLoader implements iDraftLoader
                 $player     = $this->players[$selectedArr[1]];
                 $this->playersSelected[] = $player;
                 echo sprintf("player selected %s\n", $player->getName());
+            }
+
+            if (preg_match('/TeamsInDraft/', $line) > 0) {
+                $teammsArr  = explode(':', $line);
+                $this->numberPlayersInDraft = intval($teammsArr[1]);
+                echo sprintf("number teams in draft %s\n", $this->numberPlayersInDraft);
             }
 
             if (preg_match('/Roster/', $line) > 0) {
@@ -95,9 +167,13 @@ class FileDraftLoader implements iDraftLoader
             $this->players[$player->getName()] = $player;
         }
 
+        //sort the players by ADP
         uasort($this->players, array('Player', 'CmpPlayerADP'));
     }
 
+    /**
+     * Create all player model objects and populate the ADP for each from the data file
+     */
     private function loadAdpPlayers()
     {
         $adpFileContents                = file_get_contents($this->adpLocation);
@@ -113,6 +189,9 @@ class FileDraftLoader implements iDraftLoader
         }
     }
 
+    /**
+     * Using the projected scores, load that data into the player model objects.
+     */
     private function loadProjectedScorePlayers()
     {
         $projectScoreFileContents       = file_get_contents($this->projectionLocation);
@@ -133,9 +212,7 @@ class FileDraftLoader implements iDraftLoader
 
             if (!isset($this->players[$playerName])) {
                 if (++$count > 1) {
-//                    echo sprintf("Player name NOT SET PlayerName: %s\n", $playerName);
-//                    echo sprintf("Player list: %s", print_r($this->players, true));
-//                    exit;
+                    L::Debug(sprintf("Player name NOT SET PlayerName: %s -- no ADP?", $playerName));
                 }
 
                 continue;
@@ -145,6 +222,12 @@ class FileDraftLoader implements iDraftLoader
         }
     }
 
+    /**
+     * This function will normalize the player names into a standard format.
+     *
+     * @param string        $playerNameFuzzy        player name before normalization
+     * @return string       player name after normalization
+     */
     private function getPlayerName($playerNameFuzzy)
     {
         $playerName                     = preg_replace('/\s+$/', '', $playerNameFuzzy);
@@ -153,7 +236,9 @@ class FileDraftLoader implements iDraftLoader
     }
 
     /**
-     * @param $line
+     * Get a player for a given line or return null
+     *
+     * @param string        $line                   the line in the file
      * @return null|Player
      */
     private function getPlayerForADPLine($line)
@@ -196,31 +281,41 @@ class FileDraftLoader implements iDraftLoader
         return $player;
     }
 
-    public function getCurrentRound()
-    {
-        return $this->currentRound;
-    }
-
+    /**
+     * @return int
+     */
     public function getDraftPosition()
     {
         return $this->draftPosition;
     }
 
+    /**
+     * @return array
+     */
     public function getPlayersSelectedAlready()
     {
         return $this->playersSelected;
     }
 
+    /**
+     * @return int
+     */
     public function getNumberTeamsInDraft()
     {
-        return 12;
+        return $this->numberPlayersInDraft;
     }
 
+    /**
+     * @return array
+     */
     public function getRosterArray()
     {
         return $this->rosterArray;
     }
 
+    /**
+     * @return array
+     */
     public function getPlayerList()
     {
         return $this->players;

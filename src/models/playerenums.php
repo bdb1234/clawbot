@@ -1,7 +1,7 @@
 <?php
 /**
  * @package
- * @author Brian Backhaus <brianb@zoosk.com>
+ * @author Brian Backhaus <brian.backhaus@gmail.com>
  */
  
 Class PLAYER_TYPES
