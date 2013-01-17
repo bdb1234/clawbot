@@ -18,11 +18,11 @@ Here are the list of commands Clawbot supports
 ## Configure the clawbot.sh script
 
 Set your player stats files as well as the draft info file you want to use
-	- ADPFILE - location of the adp scores
-	- PROJECTIONSFILE - location of the score projections
-	- DRAFTINFOFILE - location of draftinfo.properties
-	- BASE_DIR - the source directory where clawbot is deployed
-	- CLAWBOT_HTML - location where clawbot's status page will be written.
+- ADPFILE - location of the adp scores
+- PROJECTIONSFILE - location of the score projections
+- DRAFTINFOFILE - location of draftinfo.properties
+- BASE_DIR - the source directory where clawbot is deployed
+- CLAWBOT_HTML - location where clawbot's status page will be written.
 
 ## Run Clawbot!
 
