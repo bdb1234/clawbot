@@ -37,5 +37,6 @@ We're looking at a runtime complexity of something like:
 - Build an actual web interface other than the rudimentary templates
 - Add a percentage to the status page
 - Improve performance.
+    - We're starting at the beginning of our sorted list for every pick even in the later rounds. We could save a lot of time by skipping those results.
     - We could precompute results
     - Run different processes of Clawbot in parallel.
