@@ -34,12 +34,17 @@ Set your player stats files as well as the draft info file you want to use
 
 - `./clawbot.sh`
 - Open `clawbot.thml` which will be written to your CLAWBOT_HTML directory
+- During the draft
+	- Use the `Selected` flag in draftinfo.properties to select players you've drafted
+	- Add an `X` to the end of a player row in projections.csv
+		- `"Rodgers, Aaron QB GB ",Trizzle Dizzle,528.7,355.3,4909.0,40.7,8.7,115.6,55.0,253.7,4.6,3.7,0,0,0,0.0,0,2.0,382.20` becomes `"Rodgers, Aaron QB GB ",Trizzle Dizzle,528.7,355.3,4909.0,40.7,8.7,115.6,55.0,253.7,4.6,3.7,0,0,0,0.0,0,2.0,382.20,X`
 - Keep in mind, Clawbot is very dumb at the moment and brute forces his way to lineup projections.  We're looking at a runtime complexity of something like:
 `O(12^N)` where N is the number of rounds out you want to project.  You'll want to keep it around 6 or 7 rounds until it can be optimized.
 
 ## TODO
 
 - Build an actual web interface other than the rudimentary templates
+- Update how we remove players from draft contention
 - Add a percentage to the status page
 - Update clawbot to pull in updated stats automatically
 - Improve performance.
