@@ -199,13 +199,12 @@ class FileDraftLoader implements iDraftLoader
         $count                          = 0;
 
         foreach ($fileLines as $line) {
-            $playerName                 = explode('"', $line);
-            if (!isset($playerName[1])) {
+            $playerInfoArr              = explode(',', $line);
+            if (!isset($playerInfoArr[1])) {
                 continue;
             }
-            $playerName                 = $this->getPlayerName($playerName[1]);
+            $playerName                 = $this->getPlayerName($playerInfoArr[1]);
 
-            $playerInfoArr                  = explode(',', $line);
             if (!isset($playerInfoArr[19])) {
                 continue;
             }
@@ -220,6 +219,10 @@ class FileDraftLoader implements iDraftLoader
 
             $this->players[$playerName]->setProjectedPoints(doubleval($playerInfoArr[19]));
         }
+
+        foreach ($this->players as $player) {
+            L::Debug(sprintf("Player Name %s Points %s ADP %s", $player->getName(), $player->getProjectedPoints(), $player->getADP()));
+        }
     }
 
     /**
@@ -230,9 +233,33 @@ class FileDraftLoader implements iDraftLoader
      */
     private function getPlayerName($playerNameFuzzy)
     {
-        $playerName                     = preg_replace('/\s+$/', '', $playerNameFuzzy);
-        $playerName                     = preg_replace('/\s+\*$/', '', $playerName);
+        $playerParts                  = $playerNameFuzzy;
+        $playerParts = explode('|', $playerParts);
+
+        $playerName = trim($playerParts[0]);
+        $playerNameParts = explode(' ', $playerName);
+
+        array_pop($playerNameParts);
+        $playerName = implode(' ', $playerNameParts);
         return $playerName;
+    }
+
+    /**
+     * get the player type from the string line
+     *
+     * @param string        $playerNameString
+     * @return string
+     */
+    private function getPlayerType($playerNameString)
+    {
+        $playerParts                  = $playerNameString;
+        $playerParts = explode('|', $playerParts);
+
+        $playerName = trim($playerParts[0]);
+
+        $playerNameParts = explode(' ', $playerName);
+        $playerTypeString = $playerNameParts[count($playerNameParts) - 1];
+        return $playerTypeString;
     }
 
     /**
@@ -248,34 +275,29 @@ class FileDraftLoader implements iDraftLoader
             return null;
         }
 
-        $playerName                     = explode('"', $line);
-        if (!isset($playerName[1])) {
-            return null;
-        }
-        $playerName                     = $this->getPlayerName($playerName[1]);
-
+        $playerName                     = $this->getPlayerName($playerInfoArr[1]);
+        $playerTypeString               = $this->getPlayerType($playerInfoArr[1]);
         $player                         = null;
-        $playerTypeString               = $playerInfoArr[2];
         if (preg_match('/QB/', $playerTypeString) > 0) {
             $player                     = new Quarterback(
                 $playerName,
-                !isset($playerInfoArr[7]),
-                doubleval($playerInfoArr[4]));
+                !isset($playerInfoArr[6]),
+                doubleval($playerInfoArr[3]));
         } else if (preg_match('/RB/', $playerTypeString) > 0) {
             $player                     = new RunningBack(
                 $playerName,
-                !isset($playerInfoArr[7]),
-                doubleval($playerInfoArr[4]));
+                !isset($playerInfoArr[6]),
+                doubleval($playerInfoArr[3]));
         } else if (preg_match('/WR/', $playerTypeString) > 0) {
             $player                     = new WideReceiver(
                 $playerName,
-                !isset($playerInfoArr[7]),
-                doubleval($playerInfoArr[4]));
+                !isset($playerInfoArr[6]),
+                doubleval($playerInfoArr[3]));
         } else if (preg_match('/TE/', $playerTypeString) > 0) {
             $player                     = new TightEnd(
                 $playerName,
-                !isset($playerInfoArr[7]),
-                doubleval($playerInfoArr[4]));
+                !isset($playerInfoArr[6]),
+                doubleval($playerInfoArr[3]));
         }
 
         return $player;

@@ -118,7 +118,7 @@ class CrystalBall
         $this->scores               = array();
         $this->rosterTrends         = array();
         $this->totalPicks           = 0;
-        $this->startTime            = mktime();
+        $this->startTime            = time();
         $this->topRosterTrendsToUseCount = 200;
         $this->progressRenderer     = $progressRenderer;
     }
@@ -282,7 +282,7 @@ class CrystalBall
      */
     private function getElapsedTime()
     {
-        $endTime                    = mktime();
+        $endTime                    = time();
         return sprintf("TOTAL TIME: %s", date("i:s", $endTime - $this->startTime));
     }
 
@@ -302,7 +302,7 @@ class CrystalBall
 
             $this->scores[strval($roster->getProjectedScore())] = $roster->getRosterArrayCopy();
             $this->totalPicks++;
-            if ($this->totalPicks % 25000 === 0) {
+            if ($this->totalPicks % 2500000 === 0) {
                 //every so often, print out a status to the command line
                 $this->writeWebLoadingStatus();
                 echo $this->getElapsedTime() . "\n";
