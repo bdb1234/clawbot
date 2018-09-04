@@ -177,15 +177,35 @@ class Quarterback extends Player
 
 class TightEnd extends Player
 {
-
+    public function __construct($name, $isAvailable = true, $adp = null, $projectedPoints = null)
+    {
+        if (!is_null($adp)) {
+            $adp        = $adp * 1.33;
+        }
+        parent::__construct($name, $isAvailable, $adp, $projectedPoints);
+    }
 }
 
 class RunningBack extends Player
 {
-
+    public function __construct($name, $isAvailable = true, $adp = null, $projectedPoints = null)
+    {
+        if (!is_null($adp)) {
+            // In our league, quarterbacks on average go half as high as the ADP provided says.
+            $adp        = $adp * 1.33;
+        }
+        parent::__construct($name, $isAvailable, $adp, $projectedPoints);
+    }
 }
 
 class WideReceiver extends Player
 {
-
+    public function __construct($name, $isAvailable = true, $adp = null, $projectedPoints = null)
+    {
+        if (!is_null($adp)) {
+            // In our league, quarterbacks on average go half as high as the ADP provided says.
+            $adp        = $adp * 1.33;
+        }
+        parent::__construct($name, $isAvailable, $adp, $projectedPoints);
+    }
 }

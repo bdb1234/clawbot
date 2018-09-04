@@ -1,217 +1,218 @@
 Rank,Player,Trends,Avg Pick,HI/LO,% Drafted,
-1,Todd Gurley RB | LAR  *,,1.29, 1/3,99.4
-2,Le'Veon Bell RB | PIT  *,,2.13, 1/4,99.5
-3,David Johnson RB | ARI  *, +1,4.00, 2/7,99.5
-4,Ezekiel Elliott RB | DAL  *, -1,4.03, 2/8,99.4
-5,Antonio Brown WR | PIT  *,,6.04, 3/11,99.5
-6,Saquon Barkley RB | NYG  *, +1,6.91, 3/12,99.9
-7,Alvin Kamara RB | NO  *, -1,6.99, 4/12,99.4
-8,Kareem Hunt RB | KC  *,,8.40, 5/14,99.4
-9,Leonard Fournette RB | JAC  *,,10.45, 6/17,99.5
-10,Melvin Gordon RB | LAC  *,,11.11, 7/18,99.5
-11,DeAndre Hopkins WR | HOU  *,,12.01, 7/19,99.5
-12,Odell Beckham WR | NYG  *, +2,14.28, 8/23,99.6
-13,Dalvin Cook RB | MIN  *,,14.61, 10/23,99.5
-14,Christian McCaffrey RB | CAR  *, +1,14.78, 8/25,99.5
-15,Julio Jones WR | ATL *, -3,14.79, 9/22,99.5
-16,Devonta Freeman RB | ATL *,,16.78, 10/27,99.5
-17,Aaron Rodgers QB | GB  *,,19.42, 3/37,96.7
-18,Michael Thomas WR | NO  *,,20.42, 13/32,99.5
-19,Keenan Allen WR | LAC  *,,21.19, 14/32,99.5
-20,Rob Gronkowski TE | NE  *,,21.62, 13/32,99.6
-21,Davante Adams WR | GB  *,,22.36, 15/33,99.6
-22,A.J. Green WR | CIN  *, +1,24.50, 17/36,99.6
-23,LeSean McCoy RB | BUF  *, +1,26.18, 15/44,99.5
-24,Jerick McKinnon RB | SF  *, -2,26.72, 15/46,99.6
-25,Tom Brady QB | NE  *,,27.21, 6/52,96.7
-26,Travis Kelce TE | KC  *,,27.75, 17/42,99.6
-27,Joe Mixon RB | CIN  *,,28.36, 17/46,99.5
-28,Jordan Howard RB | CHI  *,,28.43, 17/47,99.5
-29,Deshaun Watson QB | HOU  *, +1,30.34, 10/57,96.7
-30,Mike Evans WR | TB  *, -1,30.50, 21/46,99.6
-31,Tyreek Hill WR | KC  *, +1,31.96, 20/47,99.6
-32,Stefon Diggs WR | MIN  *, -1,32.61, 22/46,99.6
-33,T.Y. Hilton WR | IND  *,,36.30, 24/54,99.6
-34,Alex Collins RB | BAL  *, +2,38.04, 23/60,99.6
-35,Amari Cooper WR | OAK  *, -1,38.51, 26/53,99.6
-36,Zach Ertz TE | PHI  *, -1,41.02, 26/61,99.5
-37,Kenyan Drake RB | MIA  *,,41.11, 26/65,99.6
-38,Adam Thielen WR | MIN  *,,41.85, 27/64,99.5
-39,Doug Baldwin WR | SEA  *,,42.90, 28/61,99.5
-40,Royce Freeman RB | DEN  *, +8,43.32, 26/68,99.8
-41,Lamar Miller RB | HOU  *, +3,43.59, 27/66,99.5
-42,Derrick Henry RB | TEN  *, +1,44.56, 26/72,99.4
-43,Jarvis Landry WR | CLE  *, +2,45.09, 26/71,99.5
-44,Russell Wilson QB | SEA  *, -2,45.21, 20/73,96.7
-45,Drew Brees QB | NO  *, -4,47.26, 17/79,96.7
-46,JuJu Smith-Schuster WR | PIT  *, +1,47.40, 31/67,99.6
-47,Jay Ajayi RB | PHI  *, -7,49.12, 29/76,99.5
-48,Demaryius Thomas WR | DEN  *, -2,50.55, 36/70,99.6
-49,Golden Tate WR | DET  *, +1,50.56, 32/75,99.5
-50,Jimmy Graham TE | GB  *, -1,52.02, 31/76,99.5
-51,Larry Fitzgerald WR | ARI *,,54.04, 33/88,99.2
-52,Tevin Coleman RB | ATL  *,,54.54, 27/90,99.3
-53,Josh Gordon WR | CLE  *,,55.55, 37/82,99.4
-54,Cam Newton QB | CAR  *,,59.61, 27/95,96.5
-55,Brandin Cooks WR | LAR  *, +1,61.00, 41/90,99.2
-56,Mark Ingram RB | NO  *, +1,61.15, 39/92,99.4
-57,Marvin Jones WR | DET  *, +3,63.90, 46/90,99.3
-58,Greg Olsen TE | CAR  *, +1,64.54, 42/99,98.2
-59,Evan Engram TE | NYG  *, -1,64.96, 42/105,98.0
-60,Chris Hogan WR | NE  *, +4,65.14, 44/99,98.7
-61,Michael Crabtree WR | BAL  *,,66.05, 47/93,99.3
-62,Kerryon Johnson RB | DET  *, +5,67.01, 43/101,99.0
-63,Ben Roethlisberger QB | PIT  *, +2,69.29, 26/118,96.5
-64,Carson Wentz QB | PHI  *, -9,69.77, 28/113,96.4
-65,Marshawn Lynch RB | OAK  *, +1,70.03, 43/107,98.9
-66,Allen Robinson WR | CHI  *, -4,70.15, 45/114,96.9
-67,Andrew Luck QB | IND  *, +1,70.69, 32/113,96.5
-68,Jaguars DST | JAC *, -5,70.82, 35/112,94.9
-69,Dion Lewis RB | TEN  *,,75.41, 49/111,98.1
-70,Carlos Hyde RB | CLE  *, +19,76.34, 47/119,97.5
-71,Kyle Rudolph TE | MIN *, -1,76.69, 50/118,96.7
-72,Marquise Goodwin WR | SF  *, +5,78.16, 51/121,96.6
-73,Kirk Cousins QB | MIN  *, -2,79.18, 37/119,96.2
-74,Corey Davis WR | TEN  *, +8,80.23, 54/121,96.8
-75,Rex Burkhead RB | NE  *, -2,80.70, 51/121,97.4
-76,Delanie Walker TE | TEN  *, -4,80.71, 52/129,96.0
-77,Robert Woods WR | LAR  *, -1,81.83, 55/120,97.6
-78,Jamaal Williams RB | GB  *, +10,81.94, 49/128,95.9
-79,Trey Burton TE | CHI  *, +11,82.72, 53/129,95.2
-80,Jimmy Garoppolo QB | SF  *, -6,82.90, 33/128,96.0
-81,Julian Edelman WR | NE  *, +4,85.51, 57/124,96.8
-82,Pierre Garcon WR | SF  *, +2,86.22, 57/128,96.6
-83,Cooper Kupp WR | LAR  *, +3,86.70, 59/123,97.3
-84,Emmanuel Sanders WR | DEN  *, +11,90.06, 58/135,94.5
-85,Sony Michel RB | NE  *, -6,91.85, 57/132,96.8
-86,Chris Thompson RB | WAS  *, -11,91.94, 56/136,93.9
-87,Rams DST | LAR  *, +6,92.14, 56/132,94.8
-88,Jordy Nelson WR | OAK  *, +3,93.92, 57/134,95.9
-89,Sammy Watkins WR | KC  *, -8,94.46, 63/135,95.0
-90,Will Fuller WR | HOU  *, +6,94.92, 60/139,94.0
-91,Tarik Cohen RB | CHI  *, -8,95.61, 52/145,91.1
-92,Chris Carson RB | SEA  *, +12,95.81, 58/141,92.5
-93,Jordan Reed TE | WAS  *, -1,96.08, 63/138,93.7
-94,Isaiah Crowell RB | NYJ  *, +9,97.00, 61/141,93.2
-95,Alshon Jeffery WR | PHI  *, -17,97.02, 52/148,89.8
-96,Matthew Stafford QB | DET  *, +1,97.85, 49/138,94.5
-97,Randall Cobb WR | GB *, -3,99.74, 62/146,91.3
-98,Vikings DST | MIN *,,99.95, 58/145,94.5
-99,Matt Ryan QB | ATL  *,,100.67, 46/140,94.2
-100,Devin Funchess WR | CAR  *,,102.77, 65/149,90.7
-101,Rashaad Penny RB | SEA  *, -14,103.20, 57/151,89.3
-102,Peyton Barber RB | TB  *, +33,103.74, 64/155,84.9
-103,Marlon Mack RB | IND  *, -2,104.76, 68/149,90.6
-104,Robby Anderson WR | NYJ  *, +2,106.09, 73/152,89.0
-105,Jared Goff QB | LAR  *, -3,106.22, 51/151,92.2
-106,Stephen Gostkowski K | NE  *, +1,106.47, 61/153,98.3
-107,Nelson Agholor WR | PHI  *, +6,106.80, 71/151,89.7
-108,Eagles DST | PHI *, +1,106.87, 66/149,94.7
-109,Philip Rivers QB | LAC  *, -4,106.87, 55/146,92.3
-110,Adrian Peterson RB | WAS  *,,107.64, 63/162,77.3
-111,Patrick Mahomes QB | KC  *, -3,107.92, 57/149,92.3
-112,David Njoku TE | CLE  *,,108.77, 70/151,88.6
-113,Sterling Shepard WR | NYG  *, +11,109.17, 70/156,86.8
-114,Ronald Jones RB | TB  *, -34,110.13, 61/163,83.1
-115,Duke Johnson RB | CLE  *, -5,110.20, 69/159,84.0
-116,Alex Smith QB | WAS  *, -5,112.29, 52/162,87.0
-117,Jack Doyle TE | IND *, -2,114.85, 75/160,85.5
-118,Greg Zuerlein K | LAR  *, +2,115.28, 73/159,98.3
-119,Calvin Ridley WR | ATL  *, -2,116.71, 76/160,86.2
-120,James White RB | NE *, -6,117.15, 71/166,80.6
-121,Chargers DST | LAC *, -5,117.17, 76/158,94.1
-122,Jamison Crowder WR | WAS  *, -4,117.90, 77/167,72.8
-123,Kenny Stills WR | MIA  *, +7,119.70, 83/165,80.6
-124,Ravens DST | BAL *, -5,119.80, 74/164,93.6
-125,Corey Clement RB | PHI  *, +2,124.30, 82/168,79.7
-126,Titans DST | TEN *, -4,124.79, 57/186,77.0
-127,Dak Prescott QB | DAL  *, -4,125.31, 59/173,75.8
-128,Nick Chubb RB | CLE  *, +1,128.18, 81/171,78.2
-129,C.J. Anderson RB | CAR  *, -8,128.92, 86/174,73.7
-130,Kelvin Benjamin WR | BUF *, -5,129.13, 88/176,63.8
-131,Ty Montgomery RB | GB  *, -5,130.48, 85/177,69.7
-132,Steelers DST | PIT *, +2,131.08, 81/178,87.2
-133,Tyler Eifert TE | CIN  *,,131.35, 80/177,75.5
-134,Devontae Booker RB | DEN  *, -6,131.94, 90/174,73.1
-135,Justin Tucker K | BAL *, +4,132.89, 86/175,97.5
-136,Jared Cook TE | OAK  *, +1,132.95, 81/180,68.1
-137,Bilal Powell RB | NYJ  *, +6,133.04, 92/175,69.7
-138,Derek Carr QB | OAK  *, -6,133.53, 70/178,67.7
-139,Texans DST | HOU  *, +2,133.88, 87/177,84.1
-140,Allen Hurns WR | DAL *, -9,134.59, 91/180,61.8
-141,Aaron Jones RB | GB  *, -5,135.13, 90/185,55.1
-142,Broncos DST | DEN  *, +4,135.29, 82/180,85.0
-143,Marcus Mariota QB | TEN  *, -3,136.38, 79/177,64.8
-144,Marqise Lee WR | JAC  *,,136.41, 95/186,29.7
-145,Harrison Butker K | KC  *, +10,137.26, 90/183,96.2
-146,George Kittle TE | SF  *, -8,137.52, 94/180,63.6
-147,Keelan Cole WR | JAC  *,,138.10, 95/190,33.9
-148,Mike Williams WR | LAC  *, +3,138.57, 94/186,46.0
-149,Kenny Golladay WR | DET  *, -1,138.66, 98/183,59.9
-150,Austin Ekeler RB | LAC  *, +6,139.03, 101/181,67.6
-151,Eli Manning QB | NYG  *, +8,139.15, 80/185,57.6
-152,Robbie Gould K | SF  *, -10,140.15, 91/187,93.6
-153,Michael Gallup WR | DAL  *, +9,141.45, 93/188,47.3
-154,DJ Moore WR | CAR  *, -5,141.49, 92/188,49.7
-155,Mohamed Sanu WR | ATL  *, +8,142.55, 97/191,49.4
-156,Matt Breida RB | SF  *, -11,142.59, 101/185,60.2
-157,Tyrell Williams WR | LAC  *, -5,142.67, 100/190,48.6
-158,DeVante Parker WR | MIA  *, -11,142.93, 97/191,40.6
-159,Eric Ebron TE | IND  *, +1,143.59, 92/187,58.9
-160,Giovani Bernard RB | CIN  *, -7,144.23, 104/185,55.8
-161,Ted Ginn WR | NO  *, -7,144.90, 88/192,48.0
-162,LeGarrette Blount RB | DET  *, -4,145.44, 91/193,46.9
-163,Latavius Murray RB | MIN  *, +4,146.43, 99/191,48.0
-164,Jordan Wilkins RB | IND  *, +19,146.62, 103/189,53.4
-165,Chris Boswell K | PIT  *, +9,146.84, 97/191,92.5
-166,Case Keenum QB | DEN  *, -9,147.09, 82/195,37.6
-167,Tyler Lockett WR | SEA  *, +1,147.12, 74/200,29.2
-168,Theo Riddick RB | DET  *, +3,147.18, 100/194,42.7
-169,Jameis Winston QB | TB  *, -4,147.33, 89/192,35.9
-170,Jake Elliott K | PHI *,,147.65, 100/190,94.4
-171,Blake Bortles QB | JAC  *, -10,147.96, 81/200,33.0
-172,Matt Bryant K | ATL  *, +16,148.06, 101/190,93.3
-173,Cameron Brate TE | TB  *, +3,148.67, 99/192,51.5
-174,Josh Doctson WR | WAS  *, -5,149.10, 104/194,41.9
-175,O.J. Howard TE | TB *, +2,149.59, 97/196,40.3
-176,Benjamin Watson TE | NO  *, -12,150.22, 99/192,47.5
-177,Wil Lutz K | NO *, +4,150.45, 105/190,93.6
-178,John Brown WR | BAL  *,,150.52, 105/201,34.0
-179,Panthers DST | CAR *, -1,150.68, 98/196,51.8
-180,Patriots DST | NE *,,151.22, 100/196,57.9
-181,Austin Seferian-Jenkins TE | JAC  *, +29,151.71, 99/202,37.9
-182,Rishard Matthews WR | TEN  *, -32,151.76, 105/199,32.4
-183,Chris Godwin WR | TB  *,,152.76, 104/205,21.5
-184,Mitchell Trubisky QB | CHI  *, -11,152.77, 86/206,23.1
-185,Packers DST | GB  *, +4,152.86, 104/195,52.3
-186,Anthony Miller WR | CHI  *, -2,153.39, 100/205,23.0
-187,DeSean Jackson WR | TB  *, +7,153.46, 106/199,37.1
-188,Cameron Meredith WR | NO  *, -6,153.69, 108/208,21.6
-189,Saints DST | NO *, -3,153.71, 109/195,58.4
-190,Nyheim Hines RB | IND  *, -24,154.60, 108/194,41.6
-191,Courtland Sutton WR | DEN  *, +10,155.91, 98/207,27.5
-192,Ricky Seals-Jones TE | ARI  *, -17,156.25, 94/207,27.8
-193,James Conner RB | PIT  *, +6,157.03, 110/204,28.4
-194,Cardinals DST | ARI  *, -2,157.59, 96/209,27.6
-195,Martavis Bryant WR | OAK  *, -4,157.94, 107/207,25.5
-196,D'Onta Foreman RB | HOU  *, -17,158.24, 112/203,30.9
-197,Mike Gesicki TE | MIA  *, -1,158.36, 97/209,26.5
-198,Spencer Ware RB | KC  *, +2,158.90, 107/204,34.4
-199,Doug Martin RB | OAK  *, -9,159.13, 110/204,30.2
-200,Cowboys DST | DAL *, -7,159.40, 109/206,32.1
-201,Paul Richardson WR | WAS  *, +2,159.88, 111/212,24.4
-202,Chiefs DST | KC  *, -7,160.50, 107/207,26.2
-203,Adam Vinatieri K | IND  *, +4,161.67, 114/205,68.6
-204,Falcons DST | ATL *, -7,162.35, 115/209,28.5
-205,Bears DST | CHI  *, -3,162.72, 110/213,23.7
-206,Dan Bailey K | DAL  *, -2,162.90, 110/210,48.0
-207,Seahawks DST | SEA  *, -2,163.40, 113/211,27.1
-208,Matt Prater K | DET *, +3,163.49, 118/206,65.8
-209,Charles Clay TE | BUF  *, -11,163.60, 114/213,20.3
-210,T.J. Yeldon RB | JAC *,,163.92, 115/215,20.4
-211,Mason Crosby K | GB  *, -2,164.48, 112/211,46.6
-212,Frank Gore RB | MIA  *, -4,165.51, 119/209,28.6
-213,Darren Sproles RB | PHI *, -7,166.65, 110/215,20.9
-214,Daniel Carlson K | MIN  *,,167.00, 120/213,39.8
-215,Graham Gano K | CAR  *, -2,168.75, 123/215,43.5
-216,Josh Lambo K | JAC  *, -2,172.67, 126/220,28.6
+1,Todd Gurley RB | LAR *,,1.24, 1/3,99.6
+2,Le'Veon Bell RB | PIT  *,,2.25, 1/5,99.6
+3,David Johnson RB | ARI *,,3.95, 2/7,99.6
+4,Ezekiel Elliott RB | DAL *,,3.96, 2/7,99.6
+5,Antonio Brown WR | PIT  *,,6.07, 3/11,99.6
+6,Saquon Barkley RB | NYG  *, +1,6.74, 3/12,99.9
+7,Alvin Kamara RB | NO *, -1,7.05, 4/12,99.6
+8,Kareem Hunt RB | KC *,,8.43, 5/14,99.6
+9,Leonard Fournette RB | JAC *,,10.25, 6/17,99.6
+10,Melvin Gordon RB | LAC  *,,11.21, 7/18,99.6
+11,DeAndre Hopkins WR | HOU *,,12.01, 7/19,99.7
+12,Odell Beckham WR | NYG  *, +1,14.11, 8/23,99.7
+13,Christian McCaffrey RB | CAR *, +2,14.52, 8/24,99.6
+14,Dalvin Cook RB | MIN *, -2,14.70, 10/23,99.6
+15,Julio Jones WR | ATL *, -1,15.05, 9/23,99.7
+16,Devonta Freeman RB | ATL  *,,16.64, 10/26,99.7
+17,Aaron Rodgers QB | GB  *,,18.99, 3/37,97.0
+18,Michael Thomas WR | NO *,,20.48, 13/32,99.6
+19,Keenan Allen WR | LAC *,,21.76, 14/34,99.7
+20,Rob Gronkowski TE | NE  *,,21.78, 13/32,99.7
+21,Davante Adams WR | GB *,,21.97, 15/32,99.7
+22,A.J. Green WR | CIN *,,24.68, 17/36,99.7
+23,LeSean McCoy RB | BUF  *, +1,26.61, 15/45,99.6
+24,Tom Brady QB | NE *, +1,27.39, 6/53,97.0
+25,Jordan Howard RB | CHI *, +3,27.61, 16/46,99.6
+26,Travis Kelce TE | KC *,,27.62, 17/41,99.7,XXXXXX
+27,Jerick McKinnon RB | SF  *, -4,28.42, 15/55,71.6
+28,Joe Mixon RB | CIN *, -1,28.49, 18/46,99.6
+29,Deshaun Watson QB | HOU  *,,29.96, 10/56,96.9
+30,Mike Evans WR | TB *,,31.02, 21/46,99.7
+31,Tyreek Hill WR | KC *,,31.94, 20/46,99.7
+32,Stefon Diggs WR | MIN *,,31.95, 22/45,99.7
+33,T.Y. Hilton WR | IND *,,36.41, 24/54,99.7
+34,Alex Collins RB | BAL *, +1,36.92, 22/59,99.7
+35,Royce Freeman RB | DEN  *, +6,38.18, 18/63,99.9
+36,Amari Cooper WR | OAK *, -2,38.25, 26/53,99.7
+37,Kenyan Drake RB | MIA *,,40.44, 25/64,99.6
+38,Zach Ertz TE | PHI *, -2,40.84, 26/61,99.6
+39,Adam Thielen WR | MIN  *, -1,41.98, 27/64,99.6
+40,Lamar Miller RB | HOU *,,43.09, 28/65,99.6
+41,Derrick Henry RB | TEN *, +2,43.20, 25/69,99.6
+42,Jarvis Landry WR | CLE *, +2,43.89, 26/68,99.6
+43,Doug Baldwin WR | SEA  *, -4,45.18, 30/65,99.7
+44,Russell Wilson QB | SEA *, -2,45.28, 20/73,96.9
+45,Drew Brees QB | NO *,,47.05, 17/78,97.0
+46,JuJu Smith-Schuster WR | PIT *,,47.46, 32/67,99.7
+47,Jay Ajayi RB | PHI  *,,48.55, 29/75,99.6
+48,Demaryius Thomas WR | DEN *,,49.09, 34/69,99.7
+49,Golden Tate WR | DET *,,51.55, 33/77,99.5
+50,Larry Fitzgerald WR | ARI  *, +1,52.68, 32/84,99.4
+51,Jimmy Graham TE | GB *, -1,53.31, 32/79,99.5
+52,Tevin Coleman RB | ATL *,,54.35, 28/90,99.4
+53,Josh Gordon WR | CLE  *,,56.39, 38/83,99.4
+54,Cam Newton QB | CAR *,,58.88, 26/95,96.8
+55,Mark Ingram RB | NO  *, +1,60.85, 39/91,99.4
+56,Brandin Cooks WR | LAR *, -1,61.81, 41/92,99.2
+57,Marvin Jones WR | DET *,,64.42, 46/92,99.3
+58,Chris Hogan WR | NE *, +2,65.23, 44/100,98.7
+59,Michael Crabtree WR | BAL *, +2,65.64, 47/93,99.4
+60,Greg Olsen TE | CAR *, -2,65.88, 43/102,98.1
+61,Kerryon Johnson RB | DET  *, +2,66.53, 43/100,99.1
+62,Evan Engram TE | NYG  *, -3,67.22, 42/109,97.6
+63,Ben Roethlisberger QB | PIT *, +1,68.02, 25/117,96.7
+64,Allen Robinson WR | CHI  *, +4,68.56, 45/109,97.7
+65,Marshawn Lynch RB | OAK  *,,69.49, 43/106,98.7
+66,Jaguars DST | JAC *, +1,70.13, 34/111,94.9
+67,Andrew Luck QB | IND  *, -1,70.33, 32/113,96.7
+68,Carlos Hyde RB | CLE *, +3,73.64, 46/114,98.0
+69,Marquise Goodwin WR | SF  *, +3,74.27, 49/115,97.5
+70,Jamaal Williams RB | GB  *, +13,75.08, 45/119,97.3
+71,Carson Wentz QB | PHI  *, -9,75.13, 31/119,96.5
+72,Kyle Rudolph TE | MIN  *, -2,76.86, 50/119,96.8
+73,Dion Lewis RB | TEN *, -4,77.16, 50/115,97.7
+74,Kirk Cousins QB | MIN *, -1,78.99, 36/119,96.4
+75,Trey Burton TE | CHI  *, +4,79.04, 50/126,96.0
+76,Corey Davis WR | TEN  *,,80.49, 54/122,96.6
+77,Delanie Walker TE | TEN  *, -2,81.10, 52/129,95.6
+78,Jimmy Garoppolo QB | SF  *,,83.07, 32/128,96.2
+79,Rex Burkhead RB | NE  *, -5,83.59, 52/125,96.6
+80,Robert Woods WR | LAR  *, -3,84.25, 57/123,97.1
+81,Julian Edelman WR | NE  *, -1,85.59, 57/125,96.8
+82,Emmanuel Sanders WR | DEN *, +3,87.09, 56/131,95.1
+83,Pierre Garcon WR | SF *, -2,87.26, 58/130,96.2
+84,Cooper Kupp WR | LAR *, -2,88.16, 60/125,96.6
+85,Rams DST | LAR *, +1,90.54, 55/130,94.9
+86,Chris Thompson RB | WAS  *, +1,92.85, 57/136,93.7
+87,Jordy Nelson WR | OAK  *, +1,94.59, 59/135,95.1
+88,Chris Carson RB | SEA  *, +7,95.07, 58/140,92.4
+89,Jordan Reed TE | WAS  *, +5,95.28, 63/139,93.8
+90,Peyton Barber RB | TB  *, +18,96.13, 58/147,89.9
+91,Sammy Watkins WR | KC *, -2,96.35, 64/137,94.4
+92,Will Fuller WR | HOU  *, -1,96.51, 62/141,93.0
+93,Sony Michel RB | NE  *, -9,97.24, 61/139,94.7
+94,Matthew Stafford QB | DET *, +3,97.47, 49/137,94.7
+95,Tarik Cohen RB | CHI  *, -3,97.93, 54/148,89.7
+96,Alfred Morris RB | SF  *,,99.20, 56/170,34.8
+97,Vikings DST | MIN *, +1,99.89, 58/146,94.6
+98,Alshon Jeffery WR | PHI  *, -8,100.82, 56/151,87.4
+99,Matt Ryan QB | ATL *,,101.17, 47/141,94.2
+100,Isaiah Crowell RB | NYJ  *, -7,101.53, 65/145,91.1
+101,Devin Funchess WR | CAR *,,102.54, 65/148,90.3
+102,Adrian Peterson RB | WAS  *, +13,102.67, 61/153,85.4
+103,Nelson Agholor WR | PHI  *, +9,103.20, 69/147,91.1
+104,Robby Anderson WR | NYJ *, +3,103.50, 71/149,90.1
+105,Stephen Gostkowski K | NE *, +4,104.91, 59/153,98.2
+106,Marlon Mack RB | IND  *, -4,105.41, 70/149,90.5
+107,Sterling Shepard WR | NYG  *, +6,106.15, 67/153,88.3
+108,Jared Goff QB | LAR  *, -5,106.35, 50/150,92.2
+109,Rashaad Penny RB | SEA  *, -9,106.50, 60/153,88.0
+110,Eagles DST | PHI *, -4,106.95, 66/149,94.6
+111,Philip Rivers QB | LAC  *, -6,106.98, 55/146,92.1
+112,Patrick Mahomes QB | KC  *, -1,107.08, 55/148,92.7
+113,Randall Cobb WR | GB  *, -17,107.33, 66/156,85.1
+114,James White RB | NE  *, +5,108.95, 58/160,84.7
+115,David Njoku TE | CLE *, -5,110.65, 72/153,87.4
+116,Alex Smith QB | WAS *,,111.18, 49/161,87.4
+117,Duke Johnson RB | CLE  *, -3,111.64, 70/161,82.1
+118,Greg Zuerlein K | LAR *,,114.10, 72/158,98.3
+119,Jack Doyle TE | IND *, -2,114.78, 75/160,85.2
+120,Matt Breida RB | SF  *, +32,114.84, 54/178,71.5
+121,Jamison Crowder WR | WAS  *, +1,116.15, 76/164,76.2
+122,Chargers DST | LAC *, -1,116.48, 75/158,94.2
+123,Calvin Ridley WR | ATL  *, -3,117.62, 77/160,85.0
+124,Kenny Stills WR | MIA *,,117.82, 81/162,81.5
+125,Ravens DST | BAL *, -2,118.99, 74/163,93.6
+126,Ronald Jones RB | TB  *, -22,120.52, 66/175,70.1
+127,Titans DST | TEN *, -2,123.98, 56/186,76.8
+128,Corey Clement RB | PHI *, -1,124.59, 83/168,79.8
+129,Dak Prescott QB | DAL *, -3,125.66, 59/174,74.7
+130,Nick Chubb RB | CLE  *, -2,129.98, 83/173,76.4
+131,Devontae Booker RB | DEN  *, +2,130.12, 90/172,75.0
+132,Steelers DST | PIT *,,130.64, 81/178,87.0
+133,Kelvin Benjamin WR | BUF *, -3,130.99, 91/176,62.1
+134,Tyler Eifert TE | CIN  *,,131.98, 80/177,73.4
+135,Keelan Cole WR | JAC  *, +27,132.03, 92/180,50.6
+136,Justin Tucker K | BAL *, +1,132.41, 86/175,97.5
+137,C.J. Anderson RB | CAR  *, -8,132.47, 89/176,70.6
+138,Bilal Powell RB | NYJ *, +3,133.00, 92/175,69.9
+139,Ty Montgomery RB | GB  *, -8,133.24, 87/180,66.5
+140,Texans DST | HOU *, -2,134.48, 88/177,83.4
+141,Derek Carr QB | OAK  *, -5,134.63, 70/179,65.1
+142,Aaron Jones RB | GB  *, -3,134.94, 90/184,54.4
+143,Jared Cook TE | OAK  *, -8,134.94, 82/184,63.4
+144,Allen Hurns WR | DAL  *, -4,134.99, 93/179,60.4
+145,Harrison Butker K | KC *, +1,135.36, 88/182,96.6
+146,George Kittle TE | SF  *, -1,135.38, 92/178,67.1
+147,Broncos DST | DEN *, -5,135.77, 83/180,83.7
+148,Marcus Mariota QB | TEN  *, -5,137.23, 79/179,62.4
+149,Eli Manning QB | NYG *,,138.29, 77/183,59.2
+150,Austin Ekeler RB | LAC *, +3,138.82, 101/179,68.4
+151,Michael Gallup WR | DAL  *, +8,139.23, 93/185,53.0
+152,Robbie Gould K | SF *, -2,139.80, 91/187,93.9
+153,Kenny Golladay WR | DET *, -6,140.00, 99/183,57.2
+154,Mike Williams WR | LAC *, -6,140.14, 95/187,43.7
+155,Mohamed Sanu WR | ATL *, +1,142.02, 97/190,49.0
+156,Giovani Bernard RB | CIN  *, +5,143.91, 104/185,55.7
+157,Jordan Wilkins RB | IND  *, +17,143.93, 102/186,58.0
+158,DJ Moore WR | CAR *, -7,143.98, 95/190,44.8
+159,Tyrell Williams WR | LAC  *, -4,145.00, 101/194,40.8
+160,Tyler Lockett WR | SEA  *, +7,145.21, 76/196,32.1
+161,Chris Boswell K | PIT *, +4,145.73, 97/190,92.9
+162,Eric Ebron TE | IND  *, -5,145.82, 94/189,54.4
+163,Josh Doctson WR | WAS  *, +9,146.17, 102/191,44.6
+164,Bears DST | CHI  *, +42,146.18, 87/198,39.9
+165,LeGarrette Blount RB | DET  *, -5,146.26, 92/193,45.0
+166,Matt Bryant K | ATL  *, +7,146.36, 99/188,94.5
+167,DeVante Parker WR | MIA  *, -13,146.41, 99/194,36.5
+168,Jake Elliott K | PHI *,,146.97, 100/189,94.4
+169,Case Keenum QB | DEN  *, -5,147.29, 81/195,36.3
+170,Austin Seferian-Jenkins TE | JAC  *, +25,147.29, 95/194,46.9
+171,Latavius Murray RB | MIN  *, -8,147.36, 101/191,46.4
+172,John Brown WR | BAL  *, +9,147.58, 104/194,39.4
+173,Jameis Winston QB | TB  *, -3,147.63, 89/193,34.4
+174,Ted Ginn WR | NO  *, -16,147.71, 96/193,44.2
+175,Blake Bortles QB | JAC  *, -6,147.72, 82/199,32.4
+176,Theo Riddick RB | DET  *, -10,148.11, 102/194,40.9
+177,Wil Lutz K | NO *, +1,149.72, 105/190,94.1
+178,O.J. Howard TE | TB *, -2,150.23, 97/196,38.7
+179,Andy Dalton QB | CIN *,,150.44, 81/205,21.4
+180,Chris Godwin WR | TB *,,150.49, 104/202,24.2
+181,Patriots DST | NE *, -1,151.18, 100/196,56.9
+182,Panthers DST | CAR  *, -5,151.53, 100/196,49.6
+183,Benjamin Watson TE | NO  *, -8,151.63, 100/195,44.2
+184,Cameron Brate TE | TB  *, -13,151.67, 101/196,44.0
+185,James Conner RB | PIT  *, +8,152.03, 102/197,33.6
+186,Mitchell Trubisky QB | CHI *, -2,152.17, 86/205,23.3
+187,Packers DST | GB *, -2,152.68, 104/196,53.8
+188,Geronimo Allison WR | GB  *,,152.79, 107/202,29.2
+189,Charles Clay TE | BUF *,,152.87, 99/203,30.2
+190,Anthony Miller WR | CHI *, -8,153.53, 102/203,22.7
+191,Saints DST | NO *, -5,153.85, 110/194,58.3
+192,Ricky Seals-Jones TE | ARI *, -3,154.03, 92/204,30.0
+193,Rishard Matthews WR | TEN  *, -14,154.31, 109/199,31.4
+194,Courtland Sutton WR | DEN *, -4,155.22, 101/203,30.3
+195,DeSean Jackson WR | TB  *, -7,155.34, 108/201,34.0
+196,Nyheim Hines RB | IND  *, -9,155.95, 101/197,38.3
+197,Spencer Ware RB | KC *, +1,157.38, 108/201,36.8
+198,Dede Westbrook WR | JAC *,,157.47, 110/208,21.7
+199,Mike Gesicki TE | MIA  *, -2,158.11, 98/208,27.0
+200,Cardinals DST | ARI  *, -6,158.36, 100/209,26.5
+201,Christian Kirk WR | ARI *,,158.82, 103/210,20.0
+202,Cowboys DST | DAL *, -2,159.18, 108/206,32.1
+203,D'Onta Foreman RB | HOU  *, -11,160.23, 115/206,28.2
+204,Doug Martin RB | OAK  *, -8,160.40, 112/204,28.4
+205,Adam Vinatieri K | IND *, -3,161.17, 114/204,69.7
+206,Chiefs DST | KC  *, -5,161.20, 107/208,24.7
+207,Paul Richardson WR | WAS  *, -8,163.15, 113/214,21.0
+208,Falcons DST | ATL *, -3,163.19, 116/209,28.2
+209,Matt Prater K | DET *, -1,163.23, 118/205,68.1
+210,Seahawks DST | SEA  *, -3,163.80, 113/211,25.3
+211,Dan Bailey K | DAL  *, -7,164.07, 112/211,34.3
+212,Mason Crosby K | GB *, -2,164.36, 112/211,47.2
+213,Frank Gore RB | MIA  *, -2,165.94, 118/210,26.0
+214,Darren Sproles RB | PHI *, -2,166.14, 108/213,20.1
+215,Daniel Carlson K | MIN  *, -2,166.45, 120/212,44.7
+216,Graham Gano K | CAR *, -2,168.26, 122/213,45.5
+217,Josh Lambo K | JAC *, -2,172.36, 127/219,30.0
